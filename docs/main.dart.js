@@ -73136,7 +73136,7 @@ O(a){var s=null
 return new A.vA(B.Kc,A.qC(s,B.l,s,B.l,s),!1,s)}}
 A.l6.prototype={
 O(a){var s=null
-return A.ahW(s,B.l,A.hK(new A.cP(B.Bj,A.oR(A.c([B.Oi,B.JW,A.akO(B.Oh,new A.a5b(a),A.akP(s,s,B.l,s,s,s,s,s,s,B.j,s,s,B.lt,s,s,B.kr,s,s,s,s)),B.JV,A.akO(B.Og,new A.a5c(a),A.akP(s,s,B.l,s,s,s,s,s,s,B.j,s,s,B.lt,s,s,B.kr,s,s,s,s))],t.E),B.aY,B.fp,B.fq),s),s,s))}}
+return A.ahW(s,B.l,A.hK(new A.cP(B.Bj,A.oR(A.c([B.Oh,B.JW,A.akO(B.Oi,new A.a5b(a),A.akP(s,s,B.l,s,s,s,s,s,s,B.j,s,s,B.lt,s,s,B.kr,s,s,s,s)),B.JV,A.akO(B.Og,new A.a5c(a),A.akP(s,s,B.l,s,s,s,s,s,s,B.j,s,s,B.lt,s,s,B.kr,s,s,s,s))],t.E),B.aY,B.fp,B.fq),s),s,s))}}
 A.a5b.prototype={
 $0(){A.FK(this.a).mv(A.a0s(new A.a59(),B.dG,new A.a5a(),t.z))},
 $S:0}
@@ -78048,9 +78048,9 @@ B.Nw=new A.o(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.L8=new A.o(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.Of=new A.dV(B.Mv,B.LJ,B.Mw,B.MX,B.Lp,B.Lx,B.M_,B.MP,B.M9,B.Nl,B.L_,B.Lf,B.Nh,B.Nw,B.L8)
 B.Og=new A.l8("THE EASY ONE",null,null,null,null,null,null,null,null)
-B.Oh=new A.l8("THE EXPEDITION1",null,null,null,null,null,null,null,null)
 B.Lw=new A.o(!0,B.j,null,null,null,null,28,B.bb,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Oi=new A.l8("THE RIDDLER",null,B.Lw,B.aL,null,null,null,null,null)
+B.Oh=new A.l8("THE RIDDLER",null,B.Lw,B.aL,null,null,null,null,null)
+B.Oi=new A.l8("THE EXPEDITION",null,null,null,null,null,null,null,null)
 B.Rg=new A.a6f(0,"system")
 B.Gi=new A.h(0.056,0.024)
 B.Gw=new A.h(0.108,0.3085)
