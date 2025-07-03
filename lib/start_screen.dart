@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'a_The_Expedition.dart';
 import 'easy_one_page.dart';
-
+import 'The mom!.dart';
 class StartScreen extends StatelessWidget {
   const StartScreen({Key? key}) : super(key: key);
 
@@ -66,6 +66,20 @@ class StartScreen extends StatelessWidget {
                   ));
                 },
                 child: const Text('THE EASY ONE'),
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                style: myButtonStyle,
+                onPressed: () {
+                  Navigator.of(context).push(PageRouteBuilder(
+                    transitionDuration: pageFadeDuration,
+                    pageBuilder: (_, __, ___) => const TheMom(),
+                    transitionsBuilder: (_, animation, __, child) {
+                      return FadeTransition(opacity: animation, child: child);
+                    },
+                  ));
+                },
+                child: const Text('THE MOM'),
               ),
             ],
           ),

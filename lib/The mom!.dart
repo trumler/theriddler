@@ -4,141 +4,111 @@ import 'dart:async';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'start_screen.dart';
 
-class EasyOnePage extends StatefulWidget {
-  const EasyOnePage({Key? key}) : super(key: key);
+class TheMom extends StatefulWidget {
+  const TheMom({Key? key}) : super(key: key);
 
   @override
-  State<EasyOnePage> createState() => _EasyOnePageState();
+  State<TheMom> createState() => _TheMomState();
 }
 
-class _EasyOnePageState extends State<EasyOnePage> {
-  static const String _prefsKey = 'easy_quiz_progress';
+class _TheMomState extends State<TheMom> {
+  static const String _prefsKey = 'themom_progress';
   final Duration introFadeDuration = Duration(milliseconds: 2000);
   final Duration quizFadeDuration = Duration(milliseconds: 1000);
 
-  double introOpacity = 0.0;
-  int introIndex = 0;
-
-  double quizOpacity = 0.0;
-  double menuOpacity = 1.0;
-
-  final TextEditingController answerController = TextEditingController();
-  final List<DateTime> _snackbarTimes = [];
-  DateTime? _lastAnswerTime;
-  DateTime? _lastIntroTapTime;
-
-  String? errorMessage;
-  double errorOpacity = 0.0;
-
+  // State flags
   bool showMenu = true;
+  bool showIntro = false;
   bool showQuiz = false;
   bool showFinished = false;
+
+  // Opacities for animations
+  double menuOpacity = 1.0;
+  double introOpacity = 0.0;
+  double quizOpacity = 0.0;
+
+  // Progress tracking
   int progress = 0;
   int currentTaskIndex = 0;
 
-  bool showIntro = false;
+  // Controllers and helpers
+  final TextEditingController answerController = TextEditingController();
+  final List<DateTime> _snackbarTimes = [];
+  DateTime? _lastAnswerTime;
+  String? errorMessage;
+  double errorOpacity = 0.0;
+
+  int introIndex = 0;
+
+  DateTime? _lastIntroTapTime;
+
   Timer? _introDisplayTimer;
   Timer? _introFadeTimer;
 
+  // Replace with your wrongMessages list
   final List<String> wrongMessages = [
- 'Nope. Try again, genius.',
-'Oof. You sure about that?',
-'Ouch. That’s embarrassing.',
-'Wrong. But A+ for confidence.',
-'Not even close. LOL.',
-'Seriously? You thought THAT was right?',
-'Who hurt you?',
-'Next time, try using your brain.',
-'Did you even read the question?',
-'I’d clap, but… no.',
-'Wow. Just… wow.',
-'You make this look hard.',
-'Maybe guessing isn’t your thing.',
-'Swing and a miss!',
-'Not today, Sherlock.',
-'Wrong again, champ.',
-'Go sit in the corner and think about what you did.',
-'Well, that’s awkward.',
-'Oopsie. Someone needs a nap.',
-'“Try again,” they said. “It’ll be fun,” they said.',
-'Your wrong answer is showing.',
-'I’d help, but this is too funny.',
-'Epic fail.',
-'Big brain time… maybe next time.',
-'Close! …to being totally wrong.',
-'Ooh, spicy. Still wrong, though.',
-'Better luck next lifetime.',
-'That answer aged like milk.',
-'I can’t even.',
-'Oof. You make this look easy — being wrong, I mean.',
-'Well, at least you tried. (Kinda.)',
-'Awkward silence intensifies.',
-'Your answer called. It wants a refund.',
-'Not all guesses are good guesses.',
-'Brain.exe has stopped working.',
-'Let’s pretend you didn’t say that.',
-'I wish I could unsee that.',
-'I’m telling your mom.',
-'If wrong answers were an art, you’d be Picasso.',
-'That guess? Zero stars.',
-'Don’t quit your day job.',
-'That made my brain hurt.',
-'Maybe ask your dog next time.',
-'Nope. Still nope.',
-'Uhh… what?',
-'That’s gonna haunt me.',
-'Congratulations! You’re wrong.',
-'Try using the other brain cell.',
-'Is that your final wrong answer?',
-'Keep going — you’re almost consistently terrible.',
+    'Cecilie havde kunne klare den her!',
+    'Synes du ikke du skylder dine børn at kunne svaret på den?',
+    'EJH MOR! nu må du lige stramme ballerne',
+    'Det er ikke så svært mor, du kan det!',
+    'Har du brug for en ostemad eller at slå en prut?',
+    
   ];
 
+  // Replace with your introTexts
   final List<String> introTexts = [
-    'To you who want an easier start',
-    'This is the place to be.',
-    'It still might not be as easy as you think',
-    'Welcome to',
-    'THE EASY ONE',
+    'Hej mor, den her er lavet specielt til dig.',
+    'Så du også har en chance for at være lidt med.',
+    'Håber du kan lide den.',
+    'VELKOMMEN TIL',
+    'THE MOM!',
   ];
 
+  // Replace with your tasks list
   final List<Map<String, String>> tasks = [
-    // (keep your existing task list entries here, unchanged)
     {
-   'message': 'This is the first task, and so the hint on the page is the first in line of something. The answer is the 2nd in line',
-   'question': 'A',
-   'answer': 'b',
- },
- {
-   'message': 'This is the 2nd task, and so the hint is the 2nd in line of something and the answer is the third in line.',
-   'question': '2',
-   'answer': '3',
- },
- {
-   'message': 'This is the 3rd task, and so the hint is the 3rd in line of something and the answer is the fourth in line.',
-   'question': 'Three',
-   'answer': 'Four',
- },
- { 'question': 'Square',          'answer': 'Pentagon'        },
- { 'question': 'So',    'answer': 'La'},
- { 'question': 'Saturday',     'answer': 'Sunday'          },
- { 'question': 'Uranus','answer': 'Neptune'},
- { 'question': 'Portuguese',        'answer': 'Russian'         },
- { 'question': 'Sagittarius',      'answer': 'Capricorn'},
- { 'question': '100',   'answer': '121'},
- { 'question': 'Pipers piping',       'answer': 'Drummers drumming'       },
- { 'question': 'Mu',         'answer': 'Nu'      },
- { 'question': 'd',          'answer': 'f'       },
- { 'question': 'Kakuna',         'answer': 'Beedrill'        },
- { 'question': 'Sudan',          'answer': 'Libya'       },
- { 'question': 'Abraham Lincoln',            'answer': 'Andrew Johnson'             },
- { 'question': 'Goodfellas',         'answer': 'Interstellar'      },
- { 'question': 'b3',          'answer': 'c3'       },//18
- { 'question': 'The Jungle Book',         'answer': 'Aristocats'        },
- { 'question': '210',          'answer': '231'       },
- { 'question': '10101',            'answer': '10110' },
- { 'question': 'Washington Redskins',            'answer': 'San Francisco 49ers'       },
- { 'question': "Vanadium",            'answer': 'Chrome'       },
- { 'question': 'Opal',            'answer': 'Silver'       },
+      'message': 'Hej Mor. Du er på første side i quizzen. Det betyder, at HINTET, er det første i rækken af noget, og svaret er det andet i rækken.',
+      'question': 'Matias',
+      'answer': 'Nicolas',
+    },
+    {
+      'message': 'Virkelig flot, at du kan rækkefølgen på dine børn ❤️. Nu er du på side 2, og så er hintet det andet i rækken af noget, og svaret er det tredje i rækken.',
+      'question': 'Tøsen',
+      'answer': 'Reici',
+    },
+    {
+      'message': 'Nu kører det! nu er du på side 3. Altså er hintet det tredje i rækken af noget, og svaret er det fjerde i rækken.',
+      'question': 'Akacievej',
+      'answer': 'Birkevej',
+    },
+     {
+      'message': 'Kan du dine planer mor?.',
+      'question': 'Mars',
+      'answer': 'Jupiter',
+    },
+     {
+      'message': 'Her er det vigtigt at man kan plusse, f.eks. 1+2 osv. Ellers må man finde hjælp hos sine dejlige børn!',
+      'question': '15',
+      'answer': '21',
+    },
+     {
+      'question': 'Lørdag',
+      'answer': 'Søndag',
+    },
+     {
+      'question': 'Juli',
+      'answer': 'Augusst',
+    },
+     {
+      'question': 'Klør 8',
+      'answer': 'Klør 9',
+    },
+     {
+      'message': 'Nu må du kunne en smule engelsk.',
+      'question': 'Nine',
+      'answer': 'Ten',
+    },
+    
   ];
 
   @override

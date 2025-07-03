@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'dart:async';
 import 'start_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -12,9 +13,16 @@ class IntroQuizPage extends StatefulWidget {
 
 class _IntroQuizPageState extends State<IntroQuizPage> {
   static const String _prefsKey = 'expedition_quiz_progress';
+
+  Timer? _introDisplayTimer;
+  Timer? _introFadeTimer;
+
   bool showMenu = true;
   bool showQuiz = false;
+  bool showFinished = false;
+  bool showIntro = false;
   int progress = 0;
+  int currentTaskIndex = 0;
 
   String? errorMessage;
   double errorOpacity = 0.0;
@@ -31,6 +39,9 @@ class _IntroQuizPageState extends State<IntroQuizPage> {
   final TextEditingController answerController = TextEditingController();
   final List<DateTime> _snackbarTimes = [];
   DateTime? _lastAnswerTime;
+  DateTime? _lastIntroTapTime;
+
+  bool get hasFinished => currentTaskIndex >= tasks.length;
 
   final List<String> wrongMessages = [
    'Nope. Try again, genius.',
@@ -158,8 +169,6 @@ class _IntroQuizPageState extends State<IntroQuizPage> {
     { 'question': 'afbocrdteyfngihniej',            'answer': 'afbicfdteyf' }, 
   ];
 
-  int currentTaskIndex = 0;
-
   @override
   void initState() {
     super.initState();
@@ -178,65 +187,134 @@ class _IntroQuizPageState extends State<IntroQuizPage> {
     await prefs.setInt(_prefsKey, newProgress);
   }
 
+  Future<void> _resetProgress() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.remove(_prefsKey);
+    setState(() {
+      progress = 0;
+    });
+    print('✅ Progress reset!');
+  }
+
   @override
   void dispose() {
+    // Cancel intro timers to prevent callbacks after dispose
+    _introDisplayTimer?.cancel();
+    _introFadeTimer?.cancel();
     answerController.dispose();
     super.dispose();
   }
 
   Future<void> _onMenuTap(int index) async {
-    // Fade out the menu
-    setState(() => menuOpacity = 0.0);
-    await Future.delayed(quizFadeDuration);
-
-    // Switch to the selected view
     setState(() {
-      showMenu = false;
-      showQuiz = index != 0;
-      if (index > 0) {
-        currentTaskIndex = index - 1;
-      }
-      // Prepare quiz fade-in
-      quizOpacity = 0.0;
-    });
-
-    // Fade in the quiz
-    await Future.delayed(Duration(milliseconds: 50));
-    setState(() => quizOpacity = 1.0);
-
-    if (index == 0) {
-      _startIntroAnimation();
-    }
-  }
-
-  Future<void> _startIntroAnimation() async {
-    setState(() {
-      introOpacity = 0.0;
       showMenu = false;
       showQuiz = false;
+      showIntro = false;
+      showFinished = false;
     });
-    for (var i = 0; i < introTexts.length; i++) {
+    await Future.delayed(quizFadeDuration);
+
+    if (index == 0) {
       setState(() {
-        introIndex = i;
+        showMenu = false;
+        showIntro = true;
+        showQuiz = false;
+        showFinished = false;
+        introIndex = 0;
         introOpacity = 0.0;
       });
-      await Future.delayed(Duration(milliseconds: 300));
-      setState(() => introOpacity = 1.0);
-      await Future.delayed(Duration(seconds: 4));
+      // Cancel any existing timers
+      _introDisplayTimer?.cancel();
+      _introFadeTimer?.cancel();
+      // Start intro scheduler
+      Future.delayed(Duration(milliseconds: 50), _scheduleIntro);
+      return;
+    } else if (index > 0 && index <= tasks.length) {
+      // Regular quiz
+      setState(() {
+        currentTaskIndex = index - 1;
+        showQuiz = true;
+      });
+    } else if (index == tasks.length + 1) {
+      // Finished page
+      setState(() {
+        showFinished = true;
+      });
+    } else {
+      // Out-of-range: clamp to last quiz
+      setState(() {
+        currentTaskIndex = tasks.length - 1;
+        showQuiz = true;
+      });
+    }
+    // Fade in content
+    await Future.delayed(Duration(milliseconds: 50));
+    setState(() {
+      quizOpacity = (showQuiz || showFinished) ? 1.0 : 0.0;
+    });
+  }
+  Future<void> _nextIntroLine() async {
+    final now = DateTime.now();
+    if (_lastIntroTapTime != null && now.difference(_lastIntroTapTime!).inMilliseconds < 1000) {
+      return;
+    }
+    _lastIntroTapTime = now;
+    // Cancel automatic timers
+    _introDisplayTimer?.cancel();
+    _introFadeTimer?.cancel();
+    // Fade out current line
+    setState(() => introOpacity = 0.0);
+    await Future.delayed(introFadeDuration);
+    if (!mounted) return;
+    if (introIndex < introTexts.length - 1) {
+      // Advance to next line and fade in
+      setState(() {
+        introIndex++;
+        introOpacity = 1.0;
+      });
+      _scheduleIntro();
+    } else {
+      // End intro: transition to quiz
+      setState(() {
+        showIntro = false;
+        showQuiz = true;
+        quizOpacity = 1.0;
+        currentTaskIndex = 0;
+        progress = max(progress, 1);
+      });
+      await _saveProgress(progress);
+    }
+  }
+
+  void _scheduleIntro() {
+    // Fade in current line
+    setState(() => introOpacity = 1.0);
+    // After display duration, fade out
+    _introDisplayTimer = Timer(Duration(seconds: 4), () {
       if (!mounted) return;
       setState(() => introOpacity = 0.0);
-      await Future.delayed(introFadeDuration);
-    }
-    setState(() {
-      showQuiz = true;
-      quizOpacity = 0.0;
-      currentTaskIndex = 0;
-      progress = max(progress, 1);
+      _introFadeTimer = Timer(introFadeDuration, () {
+        if (!mounted) return;
+        if (introIndex < introTexts.length - 1) {
+          setState(() => introIndex++);
+          _scheduleIntro();
+        } else {
+          if (!mounted) return;
+          // End of intro: go to quiz
+          setState(() {
+            showIntro = false;
+            showQuiz = true;
+            quizOpacity = 1.0;
+            currentTaskIndex = 0;
+            progress = max(progress, 1);
+          });
+          _saveProgress(progress);
+        }
+      });
     });
-    await _saveProgress(progress);
-    await Future.delayed(Duration(milliseconds: 100));
-    setState(() => quizOpacity = 1.0);
   }
+
+  // _startIntroAnimation method removed (dead code)
 
   Future<void> _checkAnswer() async {
     if (tasks.isEmpty) return;
@@ -266,14 +344,27 @@ class _IntroQuizPageState extends State<IntroQuizPage> {
   }
 
   Future<void> _fadeToTask(int newIndex) async {
-    setState(() => quizOpacity = 0.0);
-    await Future.delayed(quizFadeDuration);
     setState(() {
-      currentTaskIndex = newIndex;
-      answerController.clear();
+      quizOpacity = 0.0;
     });
+    await Future.delayed(quizFadeDuration);
+    if (newIndex < tasks.length) {
+      setState(() {
+        currentTaskIndex = newIndex;
+        answerController.clear();
+        showQuiz = true;
+        showFinished = false;
+      });
+    } else {
+      setState(() {
+        showFinished = true;
+        showQuiz = false;
+      });
+    }
     await Future.delayed(Duration(milliseconds: 50));
-    setState(() => quizOpacity = 1.0);
+    setState(() {
+      quizOpacity = (showQuiz || showFinished) ? 1.0 : 0.0;
+    });
   }
 
   void _showError(String message) async {
@@ -291,6 +382,7 @@ class _IntroQuizPageState extends State<IntroQuizPage> {
       appBar: AppBar(
         backgroundColor: Colors.black,
         elevation: 0,
+        centerTitle: true,
         leading: IconButton(
           icon: Icon(Icons.home, color: Colors.white),
           onPressed: () {
@@ -306,101 +398,111 @@ class _IntroQuizPageState extends State<IntroQuizPage> {
             );
           },
         ),
-        centerTitle: true,
         title: showQuiz
             ? Text(
                 '${currentTaskIndex + 1}',
                 style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 32),
               )
             : null,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.refresh, color: Colors.white),
+            onPressed: _resetProgress,
+          ),
+        ],
       ),
       backgroundColor: Colors.black,
       body: showMenu
           ? AnimatedOpacity(
               opacity: menuOpacity,
               duration: quizFadeDuration,
-              child: _ProgressMenu(progress: progress, onTap: _onMenuTap),
+              child: _ProgressMenu(
+                progress: progress,
+                onTap: _onMenuTap,
+              ),
             )
-          : showQuiz
-              ? Stack(
-                  children: [
-                    if (tasks[currentTaskIndex]['message']?.isNotEmpty ?? false)
-                      Positioned(
-                        top: 100,
-                        left: 20,
-                        right: 20,
-                        child: AnimatedOpacity(
-                          opacity: quizOpacity,
-                          duration: quizFadeDuration,
-                          child: Text(
-                            tasks[currentTaskIndex]['message']!,
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.white,
-                            ),
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                      ),
-                    SafeArea(
-                      child: SingleChildScrollView(
-                        child: Padding(
-                          padding: EdgeInsets.only(top: 280),
-                          child: AnimatedOpacity(
-                            opacity: quizOpacity,
-                            duration: quizFadeDuration,
-                            child: _quizWidget(),
-                          ),
-                        ),
+          : showIntro
+              ? GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: _nextIntroLine,
+                  child: Center(
+                    child: AnimatedOpacity(
+                      opacity: introOpacity,
+                      duration: introFadeDuration,
+                      child: Text(
+                        introTexts[introIndex],
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    if (errorMessage != null)
-                      Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Padding(
-                          padding: EdgeInsets.only(bottom: 50),
-                          child: AnimatedOpacity(
-                            opacity: errorOpacity,
-                            duration: Duration(milliseconds: 500),
-                            child: Text(
-                              errorMessage!,
-                              style: TextStyle(color: Colors.white, fontSize: 16),
-                              textAlign: TextAlign.center,
+                  ),
+                )
+              : showFinished
+                  ? Center(
+                      child: AnimatedOpacity(
+                        opacity: quizOpacity,
+                        duration: quizFadeDuration,
+                        child: Text(
+                          'You have now completed\n THE EASY ONE. GOOD JOB!',
+                          style: TextStyle(color: Colors.white, fontSize: 24),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    )
+                  : Stack(
+                      children: [
+                        if (tasks[currentTaskIndex]['message']?.isNotEmpty ?? false)
+                          Positioned(
+                            top: 100,
+                            left: 20,
+                            right: 20,
+                            child: AnimatedOpacity(
+                              opacity: quizOpacity,
+                              duration: quizFadeDuration,
+                              child: Text(
+                                tasks[currentTaskIndex]['message']!,
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                          ),
+                        SafeArea(
+                          child: SingleChildScrollView(
+                            child: Padding(
+                              padding: EdgeInsets.only(top: 280),
+                              child: AnimatedOpacity(
+                                opacity: quizOpacity,
+                                duration: quizFadeDuration,
+                                child: _quizWidget(),
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                  ],
-                )
-              : Center(
-                  child: AnimatedOpacity(
-                    opacity: introOpacity,
-                    duration: introFadeDuration,
-                    child: _introWidget(),
-                  ),
-                ),
+                        if (errorMessage != null)
+                          Align(
+                            alignment: Alignment.bottomCenter,
+                            child: Padding(
+                              padding: EdgeInsets.only(bottom: 50),
+                              child: AnimatedOpacity(
+                                opacity: errorOpacity,
+                                duration: Duration(milliseconds: 500),
+                                child: Text(
+                                  errorMessage!,
+                                  style: TextStyle(color: Colors.white, fontSize: 16),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ),
+                          ),
+                      ],
+                    ),
     );
   }
 
-  Widget _introWidget() => Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-            introTexts[introIndex],
-            style: TextStyle(
-              color: Colors.white,
-              fontSize:
-                  introIndex == introTexts.length - 1 ? 32 : 18,
-              fontWeight: introIndex == introTexts.length - 1
-                  ? FontWeight.bold
-                  : FontWeight.normal,
-            ),
-            textAlign: TextAlign.center,
-          ),
-          SizedBox(height: 40),
-        ],
-      );
 
   Widget _quizWidget() {
     if (tasks.isEmpty) {
@@ -454,14 +556,19 @@ class _ProgressMenu extends StatelessWidget {
   final int progress;
   final ValueChanged<int> onTap;
   const _ProgressMenu(
-      {required this.progress, required this.onTap, Key? key})
-      : super(key: key);
+      {required this.progress, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
+    final maxIndex = progress;
+    final taskCount = 24; // or pass tasks.length as a parameter if you refactor
     final labels = List<String>.generate(
-      progress + 1,
-      (i) => i == 0 ? 'Intro' : '$i',
+      maxIndex + 1,
+      (i) {
+        if (i == 0) return 'Intro';
+        if (i <= (progress > taskCount ? taskCount : progress)) return '$i';
+        return 'Finished';
+      },
     );
     return GridView.builder(
       padding: EdgeInsets.all(16),
