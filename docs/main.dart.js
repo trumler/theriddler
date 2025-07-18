@@ -86989,8 +86989,7 @@ case 4:n=$.by
 p=(n==null?$.by=$.dD():n).dD("[DEFAULT]")
 A.bU(p,q,!0)
 q=A.ze(new A.d_(p)).iy("users").hV(o.a.c.a.a)
-n=t.N
-n=A.O(["trophies",A.O([a,!0],n,t.y)],n,t.z)
+n=A.O(["trophies."+a,!0],t.N,t.z)
 m=A.aFp(!0)
 n=A.akY(n)
 n.toString
