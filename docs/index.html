@@ -35,5 +35,24 @@
 </head>
 <body style="background-color: #000000;">
   <script src="flutter_bootstrap.js" async></script>
+  <body>
+  <script src="https://www.gstatic.com/firebasejs/11.15.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.15.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.15.0/firebase-firestore.js"></script>
+  <script>
+    // Paste your firebaseConfig here:
+    const firebaseConfig = {
+      apiKey: "AIzaSyBKpmWTIF6R5p1fqiBmUcF3AwYOKgxmKrA",
+      authDomain: "ciphero-826b7.firebaseapp.com",
+      projectId: "ciphero-826b7",
+      storageBucket: "ciphero-826b7.firebasestorage.app",
+      messagingSenderId: "947736131146",
+      appId: "1:947736131146:web:97609b6fdc89a106fbd8b3",
+      measurementId: "G-3CX4DCZMDR"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</body>
 </body>
 </html>
