@@ -90893,7 +90893,7 @@ n=A.f2(A.b([],m),B.h,p,!0,0,p,p,o,n,p)
 if(q.ay){o=q.x
 o=A.d8(new A.VW(q.cx,24,q.ga7l(),p),B.A,q.e,o)}else if(q.db){o=q.f
 o=A.e0(B.a6,A.cI(A.d8(A.ay(q.fx[q.r],p,p,p,p,A.bd(p,p,B.e,p,p,p,p,p,p,p,p,24,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.U,p),B.A,q.d,o),p,p),B.B,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,q.ga7k(),p,p,p,p,p,p)}else if(q.CW){o=q.w
-o=A.cI(A.d8(A.ay("You have now completed\n THE EASY ONE. GOOD JOB! the easy one trophy is now unlocked!",p,p,p,p,A.bd(p,p,B.e,p,p,p,p,p,p,p,p,24,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.U,p),B.A,q.e,o),p,p)}else{o=A.b([],m)
+o=A.cI(A.d8(A.ay("You have now completed\n THE EASY ONE. GOOD JOB! the easy one trophy is now unlocked! So is the daily settings for Enigma!",p,p,p,p,A.bd(p,p,B.e,p,p,p,p,p,p,p,p,24,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.U,p),B.A,q.e,o),p,p)}else{o=A.b([],m)
 m=q.fy
 s=m[q.cy].h(0,"message")
 s=s==null?p:s.length!==0
