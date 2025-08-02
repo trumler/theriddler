@@ -1,10 +1,545 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="6166.89908" height="6075.74312" viewBox="0 0 6166.89908 6075.74312">
+<svg xmlns="http://www.w3.org/2000/svg" width="6244.3333" height="6244.3333" viewBox="0 0 6244.3333 6244.3333">
   <g id="Layer_1" data-name="Layer 1">
-    <rect width="6166.89908" height="6075.74312"/>
+    <rect x=".5" y=".5" width="6243.3333" height="6243.3333" stroke="#000" stroke-miterlimit="10"/>
   </g>
-  <g id="Layer_2" data-name="Layer 2">
-    <text transform="translate(594 324.74312)" fill="#fff" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" font-size="21"><tspan x="0" y="0">42</tspan></text>
-    <polyline points="603 351.74312 603 495.74312 747 639.74312 963 639.74312 1107 783.74312 1251 927.74312" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  <g id="Lines">
+    <polyline points="1467.5 783.5 1467.5 1283.5 2067.5 1883.5 2267.5 1883.5 2467.5 1883.5 2667.5 2083.5 2867.5 2283.5 2867.5 2483.5 2667.5 2683.5 2667.5 2883.5 2667.5 3083.5 2867.5 3283.5 3067.5 3483.5 3267.5 3483.5 3467.5 3483.5 3667.5 3283.5 3867.5 3083.5 4067.5 3083.5 4267.5 3083.5 4467.5 3283.5 4467.5 3683.5 4867.5 4083.5 4867.5 4383.5 4567.5 4683.5 4167.5 4683.5" fill="none" stroke="#fa0f0c" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline points="1867.5 1683.5 1367.5 2183.5 767.5 2183.5 367.5 2583.5" fill="none" stroke="#fa0f0c" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline points="2467.5 1883.5 2067.5 2283.5 1767.5 2283.5 1567.5 2483.5 1567.5 2783.5 1867.5 3083.5 2167.5 3083.5 2167.5 3383.5 2367.5 3583.5 2567.5 3783.5 2867.5 3783.5 3067.5 3983.5 3067.5 4283.5 2767.5 4583.5 2367.5 4583.5 2167.5 4783.5 1967.5 4983.5 1967.5 5183.5 2167.5 5383.5 2267.5 5483.5 2267.5 5683.5 2067.5 5883.5 1667.5 5883.5 1467.5 5683.5 1467.5 5383.5 1067.5 5383.5 867.5 5183.5 667.5 4983.5 667.5 4783.5 867.5 4583.5 1067.5 4383.5 1067.5 4083.5 667.5 4083.5 667.5 3783.5 967.5 3483.5 1267.5 3483.5 1467.5 3683.5 1767.5 3683.5 1767.5 4083.5 2067.5 4383.5 1767.5 4683.5 1367.5 4683.5 1367.5 4383.5 1567.5 4183.5 1167.5 3783.5" fill="none" stroke="#fa0f0c" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline points="2867.5 2283.5 3167.5 1983.5 3567.5 1983.5 3967.5 1583.5 3967.5 1383.5 3667.5 1083.5 3367.5 1383.5 3267.5 1383.5 2767.5 1383.5 2167.5 783.5 1767.5 783.5 967.5 783.5 667.5 483.5" fill="none" stroke="#fa0f0c" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline points="3667.5 1083.5 4067.5 683.5 4467.5 683.5 4667.5 883.5 4867.5 1083.5 4867.5 1483.5 5067.5 1683.5 5267.5 1883.5 5567.5 1883.5 5767.5 1683.5 5767.5 1283.5 5567.5 1083.5 5567.5 783.5 5067.5 783.5 5067.5 1083.5 5467.5 1483.5" fill="none" stroke="#fa0f0c" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline points="1567.5 2783.5 1267.5 2783.5 967.5 3083.5 1267.5 3383.5 1567.5 3383.5 1767.5 3383.5 2067.5 3683.5 2067.5 3983.5 2367.5 4283.5 2667.5 4283.5 2667.5 3983.5" fill="none" stroke="#fa0f0c" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline points="3867.5 3083.5 3867.5 2783.5 4167.5 2483.5 4467.5 2483.5 4767.5 2183.5 5167.5 2183.5 5467.5 2483.5 5467.5 2783.5 5167.5 3083.5 5167.5 3383.5 5467.5 3683.5 5767.5 3683.5 5767.5 3983.5 5467.5 4283.5 5467.5 4583.5" fill="none" stroke="#fa0f0c" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline points="4867.5 1483.5 4567.5 1783.5 4267.5 1783.5 4267.5 2083.5 3967.5 2083.5 3967.5 2383.5 3667.5 2383.5 3667.5 2683.5 3367.5 2683.5 3367.5 2983.5 3067.5 2983.5 3067.5 2683.5" fill="none" stroke="#fa0f0c" stroke-miterlimit="10" stroke-width="6"/>
+  </g>
+  <g id="Lines_copy" data-name="Lines copy">
+    <polyline points="1467.5 783.5 1467.5 1283.5 2067.5 1883.5 2267.5 1883.5 2467.5 1883.5 2667.5 2083.5 2867.5 2283.5 2867.5 2483.5 2667.5 2683.5 2667.5 2883.5 2667.5 3083.5 2867.5 3283.5 3067.5 3483.5 3267.5 3483.5 3467.5 3483.5 3667.5 3283.5 3867.5 3083.5 4067.5 3083.5 4267.5 3083.5 4467.5 3283.5 4467.5 3683.5 4867.5 4083.5 4867.5 4383.5 4567.5 4683.5 4167.5 4683.5" fill="none" opacity=".5" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="1867.5 1683.5 1367.5 2183.5 767.5 2183.5 367.5 2583.5" fill="none" opacity=".5" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="2467.5 1883.5 2067.5 2283.5 1767.5 2283.5 1567.5 2483.5 1567.5 2783.5 1867.5 3083.5 2167.5 3083.5 2167.5 3383.5 2367.5 3583.5 2567.5 3783.5 2867.5 3783.5 3067.5 3983.5 3067.5 4283.5 2767.5 4583.5 2367.5 4583.5 2167.5 4783.5 1967.5 4983.5 1967.5 5183.5 2167.5 5383.5 2267.5 5483.5 2267.5 5683.5 2067.5 5883.5 1667.5 5883.5 1467.5 5683.5 1467.5 5383.5 1067.5 5383.5 867.5 5183.5 667.5 4983.5 667.5 4783.5 867.5 4583.5 1067.5 4383.5 1067.5 4083.5 667.5 4083.5 667.5 3783.5 967.5 3483.5 1267.5 3483.5 1467.5 3683.5 1767.5 3683.5 1767.5 4083.5 2067.5 4383.5 1767.5 4683.5 1367.5 4683.5 1367.5 4383.5 1567.5 4183.5 1167.5 3783.5" fill="none" opacity=".5" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="2867.5 2283.5 3167.5 1983.5 3567.5 1983.5 3967.5 1583.5 3967.5 1383.5 3667.5 1083.5 3367.5 1383.5 3267.5 1383.5 2767.5 1383.5 2167.5 783.5 1767.5 783.5 967.5 783.5 667.5 483.5" fill="none" opacity=".5" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="3667.5 1083.5 4067.5 683.5 4467.5 683.5 4667.5 883.5 4867.5 1083.5 4867.5 1483.5 5067.5 1683.5 5267.5 1883.5 5567.5 1883.5 5767.5 1683.5 5767.5 1283.5 5567.5 1083.5 5567.5 783.5 5067.5 783.5 5067.5 1083.5 5467.5 1483.5" fill="none" opacity=".5" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="1567.5 2783.5 1267.5 2783.5 967.5 3083.5 1267.5 3383.5 1567.5 3383.5 1767.5 3383.5 2067.5 3683.5 2067.5 3983.5 2367.5 4283.5 2667.5 4283.5 2667.5 3983.5" fill="none" opacity=".5" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="3867.5 3083.5 3867.5 2783.5 4167.5 2483.5 4467.5 2483.5 4767.5 2183.5 5167.5 2183.5 5467.5 2483.5 5467.5 2783.5 5167.5 3083.5 5167.5 3383.5 5467.5 3683.5 5767.5 3683.5 5767.5 3983.5 5467.5 4283.5 5467.5 4583.5" fill="none" opacity=".5" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline points="4867.5 1483.5 4567.5 1783.5 4267.5 1783.5 4267.5 2083.5 3967.5 2083.5 3967.5 2383.5 3667.5 2383.5 3667.5 2683.5 3367.5 2683.5 3367.5 2983.5 3067.5 2983.5 3067.5 2683.5" fill="none" opacity=".5" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <g id="Layer_3_copy" data-name="Layer 3 copy">
+    <g>
+      <circle cx="1467.5" cy="783.5" r="35.6518" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="1467.5" cy="783.5" r="20.4135" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_5" data-name="Layer 3 copy 5">
+    <g>
+      <circle cx="1867.5" cy="1683.5" r="35.6518" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="1867.5" cy="1683.5" r="20.4135" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_6" data-name="Layer 3 copy 6">
+    <g>
+      <circle cx="1567.5" cy="2783.5" r="35.6518" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="1567.5" cy="2783.5" r="20.4135" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_4" data-name="Layer 3 copy 4">
+    <g>
+      <circle cx="2467.5" cy="1883.5" r="35.6518" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="2467.5" cy="1883.5" r="20.4135" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_2" data-name="Layer 3 copy 2">
+    <g>
+      <circle cx="3867.5" cy="3083.5" r="35.6518" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="3867.5" cy="3083.5" r="20.4135" fill="#fff" stroke="#f2f2f2" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_7" data-name="Layer 3 copy 7">
+    <g>
+      <circle cx="2867.5" cy="2283.5" r="35.6518" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="2867.5" cy="2283.5" r="20.4135" fill="#fff" stroke="#f2f2f2" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_8" data-name="Layer 3 copy 8">
+    <g>
+      <circle cx="3667.5" cy="1083.5" r="35.6518" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="3667.5" cy="1083.5" r="20.4135" fill="#fff" stroke="#f2f2f2" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_9" data-name="Layer 3 copy 9">
+    <g>
+      <circle cx="4867.5" cy="1483.5" r="35.6518" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="4867.5" cy="1483.5" r="20.4135" fill="#fff" stroke="#f2f2f2" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_10" data-name="Layer 3 copy 10">
+    <g>
+      <circle cx="3867.5" cy="3083.5" r="35.6518" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="3867.5" cy="3083.5" r="20.4135" fill="#fff" stroke="#f2f2f2" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="Layer_3_copy_3" data-name="Layer 3 copy 3">
+    <g>
+      <circle cx="667.5" cy="483.5" r="35.6518" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="9.0669"/>
+      <circle cx="667.5" cy="483.5" r="20.4135" fill="#fff" stroke="#f2f2f2" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="punkt">
+    <circle cx="1268.7377" cy="783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy" data-name="punkt copy">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1467.5" cy="1283.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_2" data-name="punkt copy 2">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2167.5" cy="783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_3" data-name="punkt copy 3">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2767.5" cy="1383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_4" data-name="punkt copy 4">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3367.5" cy="1383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_5" data-name="punkt copy 5">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4067.5" cy="683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_6" data-name="punkt copy 6">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4467.5" cy="683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_7" data-name="punkt copy 7">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4867.5" cy="1083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_8" data-name="punkt copy 8">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5467.5" cy="1483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_9" data-name="punkt copy 9">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5067.5" cy="1083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_10" data-name="punkt copy 10">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5067.5" cy="783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_11" data-name="punkt copy 11">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5567.5" cy="783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_12" data-name="punkt copy 12">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5567.5" cy="1083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_13" data-name="punkt copy 13">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5767.5" cy="1283.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_14" data-name="punkt copy 14">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5767.5" cy="1683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_15" data-name="punkt copy 15">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5567.5" cy="1883.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_16" data-name="punkt copy 16">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5267.5" cy="1883.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_17" data-name="punkt copy 17">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4567.5" cy="1783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_18" data-name="punkt copy 18">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4267.5" cy="1783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_19" data-name="punkt copy 19">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4267.5" cy="2083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_20" data-name="punkt copy 20">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3967.5" cy="2083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_21" data-name="punkt copy 21">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3967.5" cy="2383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_22" data-name="punkt copy 22">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3667.5" cy="2383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_23" data-name="punkt copy 23">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3667.5" cy="2683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_24" data-name="punkt copy 24">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3367.5" cy="2683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_25" data-name="punkt copy 25">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3367.5" cy="2983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_26" data-name="punkt copy 26">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3067.5" cy="2983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_27" data-name="punkt copy 27">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3067.5" cy="2683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_28" data-name="punkt copy 28">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2867.5" cy="2483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_54" data-name="punkt copy 54">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2067.5" cy="2283.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_109" data-name="punkt copy 109">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2067.5" cy="1883.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_110" data-name="punkt copy 110">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2667.5" cy="2083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_111" data-name="punkt copy 111">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3167.5" cy="1983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_112" data-name="punkt copy 112">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3567.5" cy="1983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_113" data-name="punkt copy 113">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3967.5" cy="1583.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_114" data-name="punkt copy 114">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3967.5" cy="1383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_55" data-name="punkt copy 55">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1767.5" cy="2283.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_103" data-name="punkt copy 103">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1667.5" cy="1883.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_104" data-name="punkt copy 104">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1367.5" cy="2183.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_105" data-name="punkt copy 105">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1067.5" cy="2183.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_106" data-name="punkt copy 106">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="767.5" cy="2183.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_107" data-name="punkt copy 107">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="567.5" cy="2383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_108" data-name="punkt copy 108">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="367.5" cy="2583.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_56" data-name="punkt copy 56">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1567.5" cy="2483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_57" data-name="punkt copy 57">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1267.5" cy="2783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_58" data-name="punkt copy 58">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="967.5" cy="3083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_59" data-name="punkt copy 59">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1267.5" cy="3383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_60" data-name="punkt copy 60">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1767.5" cy="3383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_61" data-name="punkt copy 61">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2067.5" cy="3683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_62" data-name="punkt copy 62">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2067.5" cy="3983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_63" data-name="punkt copy 63">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2367.5" cy="4283.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_64" data-name="punkt copy 64">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2667.5" cy="4283.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_65" data-name="punkt copy 65">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2667.5" cy="3983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_66" data-name="punkt copy 66">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1767.5" cy="3683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_67" data-name="punkt copy 67">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1467.5" cy="3683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_68" data-name="punkt copy 68">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1267.5" cy="3483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_69" data-name="punkt copy 69">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="967.5" cy="3483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_70" data-name="punkt copy 70">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="667.5" cy="3783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_71" data-name="punkt copy 71">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="667.5" cy="4083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_72" data-name="punkt copy 72">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1067.5" cy="4083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_96" data-name="punkt copy 96">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1167.5" cy="3783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_97" data-name="punkt copy 97">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1567.5" cy="4183.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_98" data-name="punkt copy 98">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1367.5" cy="4383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_99" data-name="punkt copy 99">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1367.5" cy="4683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_100" data-name="punkt copy 100">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1767.5" cy="4683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_101" data-name="punkt copy 101">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2067.5" cy="4383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_102" data-name="punkt copy 102">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1767.5" cy="4083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_73" data-name="punkt copy 73">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1067.5" cy="4383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_74" data-name="punkt copy 74">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="867.5" cy="4583.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_75" data-name="punkt copy 75">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="667.5" cy="4783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_76" data-name="punkt copy 76">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="667.5" cy="4983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_77" data-name="punkt copy 77">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="867.5" cy="5183.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_78" data-name="punkt copy 78">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1067.5" cy="5383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_79" data-name="punkt copy 79">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1467.5" cy="5383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_80" data-name="punkt copy 80">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1467.5" cy="5683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_81" data-name="punkt copy 81">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1667.5" cy="5883.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_82" data-name="punkt copy 82">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2067.5" cy="5883.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_83" data-name="punkt copy 83">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2267.5" cy="5683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_84" data-name="punkt copy 84">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2267.5" cy="5483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_85" data-name="punkt copy 85">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1967.5" cy="5183.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_86" data-name="punkt copy 86">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1967.5" cy="4983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_87" data-name="punkt copy 87">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2367.5" cy="4583.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_88" data-name="punkt copy 88">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2767.5" cy="4583.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_89" data-name="punkt copy 89">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3067.5" cy="4283.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_90" data-name="punkt copy 90">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3067.5" cy="3983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_91" data-name="punkt copy 91">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2867.5" cy="3783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_92" data-name="punkt copy 92">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2567.5" cy="3783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_93" data-name="punkt copy 93">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2167.5" cy="3383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_94" data-name="punkt copy 94">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2167.5" cy="3083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_95" data-name="punkt copy 95">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="1867.5" cy="3083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_29" data-name="punkt copy 29">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2667.5" cy="2683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_30" data-name="punkt copy 30">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="2667.5" cy="3083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_31" data-name="punkt copy 31">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3067.5" cy="3483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_32" data-name="punkt copy 32">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3467.5" cy="3483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_33" data-name="punkt copy 33">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4267.5" cy="3083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_34" data-name="punkt copy 34">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="3867.5" cy="2783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_35" data-name="punkt copy 35">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4167.5" cy="2483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_36" data-name="punkt copy 36">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4467.5" cy="2483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_37" data-name="punkt copy 37">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4767.5" cy="2183.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_38" data-name="punkt copy 38">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5167.5" cy="2183.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_39" data-name="punkt copy 39">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5467.5" cy="2483.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_40" data-name="punkt copy 40">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5467.5" cy="2783.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_41" data-name="punkt copy 41">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5167.5" cy="3083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_42" data-name="punkt copy 42">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5167.5" cy="3383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_43" data-name="punkt copy 43">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5467.5" cy="3683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_44" data-name="punkt copy 44">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5767.5" cy="3683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_45" data-name="punkt copy 45">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5767.5" cy="3983.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_46" data-name="punkt copy 46">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5467.5" cy="4283.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_47" data-name="punkt copy 47">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="5467.5" cy="4583.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_48" data-name="punkt copy 48">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4167.5" cy="4683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_49" data-name="punkt copy 49">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4567.5" cy="4683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_50" data-name="punkt copy 50">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4867.5" cy="4383.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_51" data-name="punkt copy 51">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4867.5" cy="4083.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_52" data-name="punkt copy 52">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4467.5" cy="3683.5" r="20.4135" fill="#fff"/>
+  </g>
+  <g id="punkt_copy_53" data-name="punkt copy 53">
+    <circle cx="967.5" cy="783.5" r="20.4135" fill="#fff"/>
+    <circle cx="4467.5" cy="3283.5" r="20.4135" fill="#fff"/>
   </g>
 </svg>
