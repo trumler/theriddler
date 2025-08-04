@@ -94650,7 +94650,12 @@ agF(a){var s,r,q,p,o,n,m
 for(s=a.length,r=0,q=0;q<s;q=p)for(p=q+1,o=p;o<s;++o){n=a[q]
 if(n>0){m=a[o]
 n=m>0&&n>m}else n=!1
-if(n)++r}return B.f.R(r+(this.d-1-B.f.i7(B.b.b3(a,0),this.d)),2)===0},
+if(n)++r}s=this.d
+n=B.b.b3(a,0)
+m=this.d
+n=B.f.i7(n,m)
+if((m&1)===1)return B.f.R(r,2)===0
+else return B.f.R(r+(s-1-n),2)===0},
 aiu(a){var s,r,q,p,o,n=this,m=n.e
 m===$&&A.a()
 s=B.b.b3(m,0)
