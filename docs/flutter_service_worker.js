@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "a6678a8860d991f65f98cd09db601d7d",
+const RESOURCES = {"flutter_bootstrap.js": "f05395f3cf6f7e1abe762ad42a668a5b",
 "version.json": "7e16d4ebb19a0059b34f89f12465db4f",
 "index.html": "df78020ef32a5f5f67d013807834f640",
 "/": "df78020ef32a5f5f67d013807834f640",
-"main.dart.js": "b8f376e5e397dd5cc863d3d309df5fa0",
+"main.dart.js": "5a89ff32d093e47341bacea896ae4913",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
 "favicon.png": "28984f0be62c9c3c4075634e7fa0019e",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -25,7 +25,7 @@ const RESOURCES = {"flutter_bootstrap.js": "a6678a8860d991f65f98cd09db601d7d",
 "assets/fonts/MaterialIcons-Regular.otf": "8997cffdfda8c7755ebce26c8cf70926",
 "assets/assets/riddles/stickmanriddle.png": "e083958526a34859d1d7f090ec624ea8",
 "assets/assets/londonmap/londonmap.png": "3686a896d271f957a98d3f75d0dfb7bb",
-"assets/assets/londonmap/korttest.svg": "96b85227adf6672a4610f00cf7162426",
+"assets/assets/londonmap/korttest.svg": "1e0f9c7d9b1006500be59b124c79e8b4",
 "assets/assets/trophies/enigma.png": "a8e2f5cdef62ecdc6a3ec132b80a02d5",
 "assets/assets/trophies/thebeginning.png": "803280e0bae31feaa209a4945dd458bc",
 "assets/assets/trophies/letterriddle.png": "4900fda1f8dbae04115ec95ed37d73f5",
