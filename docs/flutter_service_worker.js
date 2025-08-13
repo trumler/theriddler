@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "c737cf66e8da116970f86a3cf71e8eda",
+const RESOURCES = {"flutter_bootstrap.js": "dbbd9ea9a940d41826f29b892f389171",
 "version.json": "7e16d4ebb19a0059b34f89f12465db4f",
 "index.html": "df78020ef32a5f5f67d013807834f640",
 "/": "df78020ef32a5f5f67d013807834f640",
@@ -33,7 +33,7 @@ const RESOURCES = {"flutter_bootstrap.js": "c737cf66e8da116970f86a3cf71e8eda",
 "assets/assets/londonmap/stationappear/u1497.png": "1d48acbf90bbb98ee1c8f489b8a463da",
 "assets/assets/londonmap/stationappear/advancemap.png": "5ca8b40938bffb3ae0f48bf842aca338",
 "assets/assets/londonmap/stationappear/teleport1.png": "89d2c4a8ddd2211be60ca20bb11915ca",
-"assets/assets/londonmap/stationappear/u42.png": "ccd90eb38a5fe2481fac44abb32bb70f",
+"assets/assets/londonmap/stationappear/u42.png": "c37f065460662b8a2ed591db829a768f",
 "assets/assets/londonmap/stationappear/kamchatka.png": "f8c04738f297d4e2b5ef1601885b108a",
 "assets/assets/londonmap/stationappear/teleport-2.png": "4c0b63dd8152fd29a5a99f0341c3de55",
 "assets/assets/londonmap/stationappear/start.png": "05f2df2fc2b872b085fb3f83472171ee",
