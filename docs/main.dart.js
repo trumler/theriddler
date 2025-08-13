@@ -95712,7 +95712,7 @@ $0(){var s,r,q,p,o,n,m,l,k,j,i=this
 for(s=i.c,r=s.length,q=i.d,p=i.e,o=i.b.at,n=i.a,m=0;m<s.length;s.length===r||(0,A.G)(s),++m){l=s[m]
 k=q.h(0,l)
 k.toString
-j=B.h.dT(p-k,0,450)/450
+j=B.h.dT(p-k,0,1500)/1500
 o.m(0,l,j)
 if(j<1)n.a=!0}},
 $S:0}
