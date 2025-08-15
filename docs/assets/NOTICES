@@ -5212,6 +5212,9 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 flutter_lints
+path_provider
+path_provider_android
+path_provider_foundation
 path_provider_linux
 path_provider_platform_interface
 path_provider_windows
