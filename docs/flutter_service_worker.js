@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "ea994549d7d15c72bb4c84c4d4ea12aa",
+const RESOURCES = {"flutter_bootstrap.js": "d18a7f6ce997fdca5ff24e3896b0cdad",
 "version.json": "7e16d4ebb19a0059b34f89f12465db4f",
 "index.html": "df78020ef32a5f5f67d013807834f640",
 "/": "df78020ef32a5f5f67d013807834f640",
-"main.dart.js": "675bf2f3f723e232ca95a4778801d7b5",
+"main.dart.js": "5f301fee618c983b99bbddf709e673b9",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
 "favicon.png": "28984f0be62c9c3c4075634e7fa0019e",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -175,7 +175,7 @@ const RESOURCES = {"flutter_bootstrap.js": "ea994549d7d15c72bb4c84c4d4ea12aa",
 "assets/assets/londonmap/masks/maskssvg.svg": "d0d9cbe1ec22ac8d7a379f0c6169530b",
 "assets/assets/londonmap/masks/lalaal.svg": "bfe1220516c20dc9e24a2dd5b07d3bcd",
 "assets/assets/londonmap/masks/masku42.svg": "4e3ba6781de63f9c37d15503f2dda938",
-"assets/assets/londonmap/masks/maskvictoria.svg": "ad6b04a63996ca49fc4e10aaef119c32",
+"assets/assets/londonmap/masks/maskvictoria.svg": "4ab3b17db2b1b6a7888dea02917aa3c7",
 "assets/assets/londonmap/masks/maskstart.svg": "ae3cdd796ba04c584484d5ac06e44d75",
 "assets/assets/londonmap/masks/maskteleport1.svg": "dd25ff53442e0a77eae0c8d957d64f32",
 "assets/assets/londonmap/masks/maskkamchatka.svg": "4589f48527d0c38f776c212b47291095",
