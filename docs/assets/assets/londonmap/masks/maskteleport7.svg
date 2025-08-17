@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="teleport7" xmlns="http://www.w3.org/2000/svg" width="6244" height="6244" viewBox="0 0 6244 6244">
+  <circle cx="1467.5" cy="1283.5" r="20.413" fill="#fff"/>
+  <circle cx="2067.5" cy="1883.5" r="20.413" transform="translate(-122.856 3622.601) rotate(-80.783)" fill="#fff"/>
+  <circle cx="1667.5" cy="1883.5" r="20.413" fill="#fff"/>
+  <line x1="1865.005" y1="1683.5" x2="1468.761" y2="1284.761" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="1667.5" y1="1883.5" x2="1865.005" y2="1683.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="2067.5" y1="1883.5" x2="1865.005" y2="1683.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="10"/>
+</svg>
