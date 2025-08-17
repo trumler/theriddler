@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="creeper" xmlns="http://www.w3.org/2000/svg" width="6244" height="6244" viewBox="0 0 6244 6244">
+  <circle cx="1967.5" cy="5183.5" r="20.414" fill="#fff"/>
+  <line x1="1967.5" y1="4986.561" x2="1967.5" y2="5188.607" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="12"/>
+  <line x1="1799.637" y1="4827.7" x2="1967.5" y2="4986.561" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="40"/>
+</svg>
