@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "e5aeebac4864ebd10c45f05d2a29e204",
+const RESOURCES = {"flutter_bootstrap.js": "226dfbd0977204168b0527777322c747",
 "version.json": "7e16d4ebb19a0059b34f89f12465db4f",
 "index.html": "df78020ef32a5f5f67d013807834f640",
 "/": "df78020ef32a5f5f67d013807834f640",
-"main.dart.js": "b62a08c95db3fec8f05c2dae40d5e11b",
+"main.dart.js": "fec054f0232d05e79132c6ae55602508",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
 "favicon.png": "28984f0be62c9c3c4075634e7fa0019e",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -208,7 +208,7 @@ const RESOURCES = {"flutter_bootstrap.js": "e5aeebac4864ebd10c45f05d2a29e204",
 "assets/assets/londonmap/masks/maskkinghenryviii.svg": "160d92eefcbae1538aafbcd887d8152f",
 "assets/assets/londonmap/masks/maskteleport7.svg": "b52639ffd7242aa437d30bac2f84316c",
 "assets/assets/londonmap/masks/maskteleport5.svg": "aa6af298c641306336b3049086e749c9",
-"assets/assets/londonmap/masks/maskkitkat.svg": "47cfe3d4a5cc34ed26b301cb0d575d38",
+"assets/assets/londonmap/masks/maskkitkat.svg": "e1d53fcf4b308da3c3960c0bc00f6bd6",
 "assets/assets/londonmap/masks/maskgustavusadolphus.svg": "182eaacfbf471a78d0ed49fd05a2facd",
 "assets/assets/londonmap/masks/masklaika.svg": "c93290b81db81007b976ae8d7430dabf",
 "assets/assets/londonmap/masks/maskburgerking.svg": "3cacf6735f1f092dde228c89141eb5e6",
