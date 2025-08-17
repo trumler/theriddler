@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="brooklynbridge" xmlns="http://www.w3.org/2000/svg" width="6244" height="6244" viewBox="0 0 6244 6244">
+  <circle cx="2467.5" cy="1883.5" r="35.652" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="9.067"/>
+  <circle cx="2867.5" cy="2283.5" r="35.652" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="9.067"/>
+  <circle cx="2867.5" cy="2283.5" r="20.414" fill="#fff" stroke="#fff" stroke-miterlimit="10"/>
+  <circle cx="2467.5" cy="1883.5" r="20.414" fill="#fff" stroke="#fff" stroke-miterlimit="10"/>
+  <line x1="2867.091" y1="2283.5" x2="2467.261" y2="1883.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="10"/>
+</svg>
