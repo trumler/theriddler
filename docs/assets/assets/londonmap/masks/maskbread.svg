@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="bread" xmlns="http://www.w3.org/2000/svg" width="6244" height="6244" viewBox="0 0 6244 6244">
+  <circle cx="4567.5" cy="1783.5" r="20.414" fill="#fff"/>
+  <circle cx="5267.5" cy="1883.5" r="20.414" fill="#fff"/>
+  <line x1="4567.5" y1="1785.69" x2="4867.718" y2="1483.718" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="12"/>
+  <line x1="5267.5" y1="1880.09" x2="4867.718" y2="1483.718" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="12"/>
+  <line x1="5067.5" y1="1479.174" x2="4903.152" y2="1483.5" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="40"/>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="minotaur" xmlns="http://www.w3.org/2000/svg" width="6244" height="6244" viewBox="0 0 6244 6244">
+  <circle cx="5467.5" cy="2483.5" r="20.414" fill="#fff"/>
+  <line x1="5162.177" y1="2182.421" x2="5464.685" y2="2483.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="14"/>
+  <line x1="4990.222" y1="2006.735" x2="5147.086" y2="2163.086" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="40"/>
+</svg>

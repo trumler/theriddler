@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="prize" xmlns="http://www.w3.org/2000/svg" width="6244" height="6244" viewBox="0 0 6244 6244">
+  <circle cx="5067.5" cy="1083.5" r="20.414" fill="#fff"/>
+  <line x1="5067.5" y1="783.133" x2="5067.5" y2="1083.349" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="12"/>
+  <line x1="5174.219" y1="669.712" x2="5078.048" y2="759.206" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="40"/>
+</svg>
