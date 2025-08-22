@@ -28467,7 +28467,9 @@ _.e=a
 _.f=1
 _.r=null
 _.w=b
-_.c=_.a=_.x=null},
+_.x=null
+_.y=!1
+_.c=_.a=null},
 azF:function azF(){},
 azI:function azI(a){this.a=a},
 azG:function azG(a){this.a=a},
@@ -95395,7 +95397,7 @@ Ti(){var s=this.r
 if(s.b==null)s.b=$.Fh.$0()
 s=this.w
 if(s!=null)s.ah()},
-B5(a,b){var s=null,r=A.dW(s,s,s,B.a_,B.j_,B.q,s,A.c1(A.b([A.oW(a,s,32,s),B.mh,A.cG(A.ab(b,s,s,s,s,s,B.a5_,s,s),1)],t.p),B.o,B.r,B.u),s,B.kr,s,s,s,B.aK,s,s,s,s,s)
+B5(a,b){var s=null,r=A.dW(s,s,s,B.a_,B.j_,B.q,s,A.c1(A.b([A.oW(a,s,32,s),B.mh,A.cG(A.ab(b,s,s,s,s,s,B.a5_,s,s),1)],t.p),B.o,B.r,B.u),s,B.kq,s,s,s,B.aK,s,s,s,s,s)
 this.c.a6(t.q).f.cv(r)},
 H3(){var s,r=this,q=r.d,p=q*q,o=J.ff(p,t.S)
 for(s=0;s<p;++s)o[s]=s
@@ -96415,7 +96417,7 @@ break
 case 17:case 13:e=o.c
 if(e!=null){e=e.a6(t.q).f
 i=A.oW(b,null,32,null)
-e.cv(A.dW(null,null,null,B.a_,B.j_,B.q,null,A.c1(A.b([i,B.mh,A.cG(A.ab(c,null,null,null,null,null,B.cI,null,null),1)],t.p),B.o,B.r,B.u),null,B.kr,null,null,null,B.aK,null,null,null,null,null))}return A.p(null,r)
+e.cv(A.dW(null,null,null,B.a_,B.j_,B.q,null,A.c1(A.b([i,B.mh,A.cG(A.ab(c,null,null,null,null,null,B.cI,null,null),1)],t.p),B.o,B.r,B.u),null,B.kq,null,null,null,B.aK,null,null,null,null,null))}return A.p(null,r)
 case 1:return A.o(p.at(-1),r)}})
 return A.q($async$fz,r)},
 rN(){var s=0,r=A.r(t.H),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c,b,a
@@ -98811,7 +98813,7 @@ case 1:return A.p(q,r)}})
 return A.q($async$$1,r)},
 $S:253}
 A.rW.prototype={
-aa(){return new A.Jd(A.aI(t.S),B.kq)}}
+aa(){return new A.Jd(A.aI(t.S),B.kr)}}
 A.Jd.prototype={
 ap(){this.aF()
 this.IK()},
@@ -98827,19 +98829,23 @@ s[r]=q}p.d=s
 B.b.Fn(s,B.cX)
 p.e.a2(0)
 p.f=1
-p.w=B.kq
+p.w=B.kr
+p.y=!1
 p.A(new A.azF())},
 anr(){this.x=new A.br(Date.now(),0,!1)
 this.r=A.z1(B.v,new A.azI(this))},
-ajF(a){var s=this,r=null,q=s.f
-if(a!==q){q=t.q
-s.c.a6(q).f.aqI()
-s.c.a6(q).f.cv(A.dW(r,r,r,B.h,r,B.q,r,A.ab("Tap "+s.f+" next",r,r,r,r,r,B.n,r,r),r,B.d0,r,r,r,r,r,r,r,r,r))
-return}if(q===1&&s.r==null)s.anr()
-s.A(new A.azz(s,a))
-if(s.f>100){q=s.r
-if(q!=null)q.ah()
-s.Vu(!0)}},
+ajF(a){var s,r=this,q=null
+if(r.y)return
+s=r.f
+if(a!==s){s=t.q
+r.c.a6(s).f.aqI()
+r.c.a6(s).f.cv(A.dW(q,q,q,B.h,q,B.q,q,A.ab("Tap "+r.f+" next",q,q,q,q,q,B.n,q,q),q,B.d0,q,q,q,q,q,q,q,q,q))
+return}if(s===1&&r.r==null)r.anr()
+r.A(new A.azz(r,a))
+if(r.f>100){r.y=!0
+s=r.r
+if(s!=null)s.ah()
+r.Vu(!0)}},
 pn(){var s=0,r=A.r(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e
 var $async$pn=A.n(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:q=3
@@ -98898,7 +98904,7 @@ A.aF(e,f,!0)
 m=A.dG(new A.aX(e)).gdL()
 if(m==null){s=1
 break}l=a1?100:n.e.a
-k=B.f.e1(B.f.bH(24e7-n.w.a,1e6),0,240)
+k=B.f.e1(B.f.bH(3e8-n.w.a,1e6),0,300)
 d=$.a1
 e=(d==null?$.a1=$.b2():d).aQ("[DEFAULT]")
 A.aF(e,f,!0)
@@ -98944,7 +98950,7 @@ s=a?100:p.e.a
 r=p.w
 q=p.c
 q.toString
-A.fw(null,!1,new A.azE(p,a,new A.b3(24e7-r.a),s),q,t.z)},
+A.fw(null,!1,new A.azE(p,a,new A.b3(3e8-r.a),s),q,t.z)},
 H2(a){var s=a.a
 return B.c.cU(B.f.j(B.f.bH(s,6e7)%60),2,"0")+":"+B.c.cU(B.f.j(B.f.bH(s,1e6)%60),2,"0")},
 K(a){var s,r=this,q=null,p=A.a3(a),o=r.H2(r.w),n=t.p
@@ -98958,10 +98964,11 @@ $S:0}
 A.azI.prototype={
 $1(a){var s=Date.now(),r=this.a,q=r.x
 q.toString
-q=24e7-new A.br(s,0,!1).c5(q).a
+q=3e8-new A.br(s,0,!1).c5(q).a
 if(r.c==null)return
 if(q<=0){r.A(new A.azG(r))
 a.ah()
+r.y=!0
 s=r.r
 if(s!=null)s.ah()
 r.Vu(!1)}else r.A(new A.azH(r,new A.b3(q)))},
@@ -99029,7 +99036,7 @@ a.uA(m,A.m(["uid",q.d.a.c.a.a,"username",q.e,"score",e,"completed",p,"timeUsed",
 return A.q($async$$1,r)},
 $S:88}
 A.azE.prototype={
-$1(a){var s=this,r=null,q=A.ba(8),p=s.b,o=A.ab(p?"Well done! \ud83c\udf89":"Time's up! \u23f3",r,r,r,r,r,B.n,r,r),n=s.a,m=A.ab(p?"You cleared all 100 numbers in "+n.H2(s.c)+".":"Result: "+s.d+"/100 in "+n.H2(B.kq)+".",r,r,r,r,r,B.fZ,r,r)
+$1(a){var s=this,r=null,q=A.ba(8),p=s.b,o=A.ab(p?"Well done! \ud83c\udf89":"Time's up! \u23f3",r,r,r,r,r,B.n,r,r),n=s.a,m=A.ab(p?"You cleared all 100 numbers in "+n.H2(s.c)+".":"Result: "+s.d+"/100 in "+n.H2(B.kr)+".",r,r,r,r,r,B.fZ,r,r)
 return A.f6(A.b([A.et(B.a7V,new A.azC(n),r),A.et(B.a80,new A.azD(n),r)],t.p),B.h,m,r,new A.bU(q,B.cV),o)},
 $S:14}
 A.azC.prototype={
@@ -99049,7 +99056,7 @@ j===$&&A.a()
 s=j[b]
 r=k.e.p(0,s)
 q=r?B.WZ:B.M6
-k=r?l:new A.azJ(k,s)
+k=r||k.y?l:new A.azJ(k,s)
 j=A.ba(8)
 p=r?A.aY(64,B.c2.F()>>>16&255,B.c2.F()>>>8&255,B.c2.F()&255):B.h
 o=A.dM(q,2)
@@ -110112,12 +110119,12 @@ B.NM=new A.b3(2e4)
 B.ab=new A.b3(2e5)
 B.kp=new A.b3(2e6)
 B.NN=new A.b3(225e3)
-B.kq=new A.b3(24e7)
 B.pm=new A.b3(25e4)
 B.NO=new A.b3(2961926e3)
 B.bL=new A.b3(3e5)
-B.kr=new A.b3(3e6)
+B.kq=new A.b3(3e6)
 B.NP=new A.b3(3e7)
+B.kr=new A.b3(3e8)
 B.pn=new A.b3(35e4)
 B.po=new A.b3(375e3)
 B.NQ=new A.b3(4e4)
@@ -113514,7 +113521,7 @@ $.rL=null
 $.aRb=A.b([],t.no)
 $.aVI=0
 $.aVH=0
-$.b_g=B.kr
+$.b_g=B.kq
 $.qH=A.b([],t.qj)
 $.My=B.p8
 $.Mv=null
