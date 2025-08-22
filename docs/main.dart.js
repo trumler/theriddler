@@ -98764,6 +98764,7 @@ if(s!=null)s.ah()
 this.av()},
 II(){var s,r,q,p=this,o=p.r
 if(o!=null)o.ah()
+p.x=p.r=null
 s=J.fd(100,t.S)
 for(r=0;r<100;r=q){q=r+1
 s[r]=q}p.d=s
