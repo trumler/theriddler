@@ -98063,7 +98063,7 @@ A.aAH.prototype={
 $0(){A.e1(null,!0,new A.aAB(),this.a,t.z)},
 $S:0}
 A.aAB.prototype={
-$1(a){return A.dM(A.b([A.di(B.DD,new A.aAx(a),null)],t.p),B.h,B.ab5,null,null,B.DT)},
+$1(a){return A.dM(A.b([A.di(B.DE,new A.aAx(a),null)],t.p),B.h,B.ab5,null,null,B.DT)},
 $S:13}
 A.aAx.prototype={
 $0(){return A.ac(this.a,!1).bv()},
@@ -98193,7 +98193,7 @@ if(r==null){o.a.toString
 r=n}p=B.c.bo(a).toLowerCase()
 if(!o.ax&&B.c.p(p,"enigma")){o.q(new A.azb(o))
 A.NO("enigma_completed")
-o.c.a2(t.q).f.cm(A.dX(n,n,n,B.h,n,B.q,n,A.bV(A.b([A.pf("assets/trophies/enigma.png",n,24,24),B.df,B.DN],t.p),B.o,B.r,B.u),n,B.a0,n,n,n,n,n,n,n,n,n))}if(r!=null&&p===r)$.a0.p3$.push(new A.azc(m))},
+o.c.a2(t.q).f.cm(A.dX(n,n,n,B.h,n,B.q,n,A.bV(A.b([A.pf("assets/trophies/enigma.png",n,24,24),B.df,B.DO],t.p),B.o,B.r,B.u),n,B.a0,n,n,n,n,n,n,n,n,n))}if(r!=null&&p===r)$.a0.p3$.push(new A.azc(m))},
 L(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d="ABCDEFGHIJKLMNOPQRSTUVWXYZ",c=A.nr(a,e,t.X)
 c=c==null?e:c.c.b
 t.nA.a(c)
@@ -98298,7 +98298,7 @@ $1(a){var s,r=null,q=this.a,p=q.ay?4:3,o=t.p,n=A.b([B.D1,B.D2],o)
 if(q.ay)n.push(B.D0)
 n.push(B.D3)
 n=A.aWl(B.i,!0,B.i,n,B.H)
-s=A.b([A.fB(B.DR,r,B.y,B.aM,r,!1,B.a1),A.fB(B.DK,r,B.y,B.aM,r,!1,B.a1)],o)
+s=A.b([A.fB(B.DR,r,B.y,B.aM,r,!1,B.a1),A.fB(B.DL,r,B.y,B.aM,r,!1,B.a1)],o)
 if(q.ay)s.push(A.fB(new A.en(new A.azA(q),r),r,B.y,B.aM,r,!1,B.a1))
 s.push(A.fB(new A.en(new A.azB(q),r),r,B.y,B.aM,r,!1,B.a1))
 return A.dM(r,B.h,A.c5(A.aV2(A.bS(A.b([n,A.c5(A.aWm(s),300,r)],o),B.o,B.r,B.aH),p),r,17976931348623157e292),B.O,r,r)},
@@ -98853,7 +98853,7 @@ $0(){},
 $S:0}
 A.aDZ.prototype={
 $1(a){var s=null,r=A.b0(8),q=this.a,p=A.aa("You solved it in "+q.r+" moves.",s,s,s,s,s,B.m,s,s)
-return A.dM(A.b([A.di(B.DE,new A.aDX(q),s)],t.p),B.h,p,s,new A.bB(r,B.bp),B.ab7)},
+return A.dM(A.b([A.di(B.DF,new A.aDX(q),s)],t.p),B.h,p,s,new A.bB(r,B.bp),B.ab7)},
 $S:13}
 A.aDX.prototype={
 $0(){var s=this.a,r=s.c
@@ -99913,12 +99913,12 @@ m=A.dl(A.a4(a).dx,2)
 l=A.b0(8)
 k=t.p
 p=A.fv(h,A.iM(!1,o,!0,A.bA(h,A.bV(A.b([B.qX,B.df,new A.p6(1,B.io,A.aa(i.f?i.w:"Please log in",h,B.aZ,h,h,h,B.cu,h,h),h)],k),B.o,B.r,B.aH),B.p,h,new A.ak(0,n.a.a*0.4,48,1/0),new A.bq(B.h,h,m,l,h,h,B.D),h,h,h,B.ia,h,h,h),h,!0,h,h,h,h,h,h,h,h,new A.aMw(i,a),h,h,h,h,h,h,h),h,h,20,h,p.r.b+10,h)
-l=A.dy(h,B.DC,B.y,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.aMx(a),h,h,h,h,h,h,!1,B.ab)
+l=A.dy(h,B.DD,B.y,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.aMx(a),h,h,h,h,h,h,!1,B.ab)
 m=A.bX(a,h,q).w
 n=i.gjo()
 o=g.length
 j=t.Is
-m=A.FQ(0,new A.aP(B.qb,A.c5(A.bS(A.b([B.hj,l,B.aU,A.cv(A.R7(A.c5(A.fB(A.aVC(A.bS(A.b([B.aU,A.d3(B.DI,h,new A.aMy(i,a),n.ed(new A.aU(new A.aD(g[0%o],2,B.v,-1),j))),B.aU,A.d3(B.DU,h,new A.aMz(i,a),i.gjo().ed(new A.aU(new A.aD(g[1%o],2,B.v,-1),j))),B.aU,A.d3(B.DA,h,new A.aMA(i,a),i.gjo().ed(new A.aU(new A.aD(g[2%o],2,B.v,-1),j))),B.aU,A.d3(B.DO,h,new A.aMB(i,a),i.gjo().ed(new A.aU(new A.aD(g[3%o],2,B.v,-1),j))),B.aU,A.d3(B.DG,h,new A.aMC(i,a),i.gjo().ed(new A.aU(new A.aD(g[4%o],2,B.v,-1),j))),B.aU,A.d3(B.DH,h,new A.aMD(i,a),i.gjo().ed(new A.aU(new A.aD(g[5%o],2,B.v,-1),j)))],k),B.c2,B.r,B.u)),h,B.y,h,h,!1,B.a1),m.a.b*0.35,h),h,0.5),h,h),B.hj],k),B.c2,B.r,B.u),1/0,h),h))
+m=A.FQ(0,new A.aP(B.qb,A.c5(A.bS(A.b([B.hj,l,B.aU,A.cv(A.R7(A.c5(A.fB(A.aVC(A.bS(A.b([B.aU,A.d3(B.DJ,h,new A.aMy(i,a),n.ed(new A.aU(new A.aD(g[0%o],2,B.v,-1),j))),B.aU,A.d3(B.DU,h,new A.aMz(i,a),i.gjo().ed(new A.aU(new A.aD(g[1%o],2,B.v,-1),j))),B.aU,A.d3(B.DB,h,new A.aMA(i,a),i.gjo().ed(new A.aU(new A.aD(g[2%o],2,B.v,-1),j))),B.aU,A.d3(B.Dz,h,new A.aMB(i,a),i.gjo().ed(new A.aU(new A.aD(g[3%o],2,B.v,-1),j))),B.aU,A.d3(B.DH,h,new A.aMC(i,a),i.gjo().ed(new A.aU(new A.aD(g[4%o],2,B.v,-1),j))),B.aU,A.d3(B.DI,h,new A.aMD(i,a),i.gjo().ed(new A.aU(new A.aD(g[5%o],2,B.v,-1),j)))],k),B.c2,B.r,B.u)),h,B.y,h,h,!1,B.a1),m.a.b*0.35,h),h,0.5),h,h),B.hj],k),B.c2,B.r,B.u),1/0,h),h))
 j=A.b0(8)
 o=A.dl(A.a4(a).dx,2)
 n=A.b0(8)
@@ -99970,7 +99970,7 @@ s=m!==!0?12:13
 break
 case 12:s=14
 return A.f(A.rc("loggedin_completed"),$async$$1)
-case 14:k.c.a2(t.q).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.DJ,null,B.a0,null,null,null,null,null,null,null,null,null))
+case 14:k.c.a2(t.q).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.DK,null,B.a0,null,null,null,null,null,null,null,null,null))
 case 13:s=15
 return A.f(k.vp(),$async$$1)
 case 15:m=$.U
@@ -100035,7 +100035,7 @@ return A.q($async$$0,r)},
 $S:2}
 A.aM_.prototype={
 $1(a){var s=null,r=A.b0(8),q=A.aa("Account",s,s,s,s,s,A.bn(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),p=A.aa("You are logged in as "+this.a.w+". Do you want to log out?",s,s,s,s,s,A.bn(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)
-return A.dM(A.b([A.jG(B.DF,new A.aLd(a),A.nv(s,s,B.h,s,s,s,s,s,s,B.i,s,s,s,s,s,B.w,s,s,s,s)),A.jG(B.DM,new A.aLe(a),A.nv(s,s,B.h,s,s,s,s,s,s,B.i,s,s,s,s,s,B.w,s,s,s,s))],t.p),B.h,p,s,new A.bB(r,B.w),q)},
+return A.dM(A.b([A.jG(B.DG,new A.aLd(a),A.nv(s,s,B.h,s,s,s,s,s,s,B.i,s,s,s,s,s,B.w,s,s,s,s)),A.jG(B.DN,new A.aLe(a),A.nv(s,s,B.h,s,s,s,s,s,s,B.i,s,s,s,s,s,B.w,s,s,s,s))],t.p),B.h,p,s,new A.bB(r,B.w),q)},
 $S:13}
 A.aLd.prototype={
 $0(){return A.ac(this.a,!1).dU(!1)},
@@ -100251,7 +100251,7 @@ break
 case 6:s=9
 return A.f(A.rc("mom_completed"),$async$$0)
 case 9:A.ac(q.b,!1).bv()
-o.a2(p).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.DB,null,B.a0,null,null,null,null,null,null,null,null,null))
+o.a2(p).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.DC,null,B.a0,null,null,null,null,null,null,null,null,null))
 s=7
 break
 case 8:o.a2(p).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.Dv,null,B.a0,null,null,null,null,null,null,null,null,null))
@@ -100308,7 +100308,7 @@ A.e1(null,!0,new A.aLB(s),s,t.z)},
 $S:0}
 A.aLB.prototype={
 $1(a){var s=null,r=A.b0(8)
-return A.dM(A.b([A.di(B.dY,new A.aLl(a),s),A.di(B.DS,new A.aLm(a,this.a),s)],t.p),B.h,B.DL,s,new A.bB(r,B.w),s)},
+return A.dM(A.b([A.di(B.dY,new A.aLl(a),s),A.di(B.DS,new A.aLm(a,this.a),s)],t.p),B.h,B.DM,s,new A.bB(r,B.w),s)},
 $S:13}
 A.aLl.prototype={
 $0(){return A.ac(this.a,!1).bv()},
@@ -100572,11 +100572,11 @@ p=A.cF(A.jG(A.aa(c,q,q,q,q,q,B.Do,B.a6,q),b,p),1)
 s=J.eG(5,t.l7)
 for(r=0;r<5;++r)s[r]=new A.aP(B.q9,A.f7(r<a?B.lG:B.qT,B.i,q,16),q)
 return new A.aP(B.c3,A.bS(A.b([p,B.hh,A.bV(s,B.o,B.ba,B.u)],t.p),B.o,B.r,B.u),q)},
-abK(a){var s,r,q=this,p=A.b([q.kt(3,new A.aHH(q,a),"Sticks Game"),q.kt(2,new A.aHI(q,a),"The Stickman Riddle"),q.kt(2,new A.aHJ(q,a),"Grid Riddle"),q.kt(1,new A.aHU(q,a),"Letter Riddle"),q.kt(4,new A.aHW(q,a),"Tower Of Hanoi"),q.kt(1,new A.aHX(q,a),"15 Puzzle"),q.kt(2,new A.aHY(q,a),"Lights Out"),q.kt(3,new A.aHZ(q,a),"Knight's Tour"),q.kt(3,new A.aI_(q,a),"1-100"),q.kt(2,new A.aI0(q,a),"Cipher Merge")],t.p),o=B.f.S(p.length,3)
+abK(a){var s,r,q=this,p=A.b([q.kt(3,new A.aHH(q,a),"Sticks Game"),q.kt(2,new A.aHI(q,a),"The Stickman Riddle"),q.kt(2,new A.aHJ(q,a),"Grid Riddle"),q.kt(1,new A.aHU(q,a),"Letter Riddle"),q.kt(4,new A.aHW(q,a),"Tower Of Hanoi"),q.kt(1,new A.aHX(q,a),"15 Puzzle"),q.kt(2,new A.aHY(q,a),"Lights Out"),q.kt(2,new A.aHZ(q,a),"Knight's Tour"),q.kt(3,new A.aI_(q,a),"1-100"),q.kt(2,new A.aI0(q,a),"Cipher Merge")],t.p),o=B.f.S(p.length,3)
 if(o!==0){s=3-o
 for(r=0;r<s;++r)p.push(new A.pe(!0,new A.y4(0,q.kt(0,new A.aI1(),""),null),null))}return p},
 L(a){var s=null,r=this.d
-return A.dB(A.dh(A.dN(s,!0,B.h,s,s,0,s,s,A.cs(s,s,A.f7(B.bH,B.i,s,s),s,s,new A.aI4(a),s,s,s),B.Dz,s),B.h,new A.aP(B.aM,A.bS(A.b([A.cF(A.xr(1,this.abK(a),3,6,6,s,s,!1),1),B.c8,A.bV(B.rr,B.o,B.ba,B.u)],t.p),B.o,B.r,B.u),s)),B.E,B.t,r)}}
+return A.dB(A.dh(A.dN(s,!0,B.h,s,s,0,s,s,A.cs(s,s,A.f7(B.bH,B.i,s,s),s,s,new A.aI4(a),s,s,s),B.DA,s),B.h,new A.aP(B.aM,A.bS(A.b([A.cF(A.xr(1,this.abK(a),3,6,6,s,s,!1),1),B.c8,A.bV(B.rr,B.o,B.ba,B.u)],t.p),B.o,B.r,B.u),s)),B.E,B.t,r)}}
 A.aHH.prototype={
 $0(){var s=0,r=A.r(t.H),q=this,p,o
 var $async$$0=A.m(function(a,b){if(a===1)return A.o(b,r)
@@ -101570,7 +101570,7 @@ return s.r=s.f},
 $S:0}
 A.awT.prototype={
 $1(a){var s=null,r=A.b0(12),q=this.a,p=A.aa("Score: "+q.f,s,s,s,s,s,B.di,s,s)
-return A.dM(A.b([A.di(B.DE,new A.awR(q),s)],t.p),B.h,p,s,new A.bB(r,B.bp),B.abI)},
+return A.dM(A.b([A.di(B.DF,new A.awR(q),s)],t.p),B.h,p,s,new A.bB(r,B.bp),B.abI)},
 $S:13}
 A.awR.prototype={
 $0(){var s=this.a,r=s.c
@@ -102074,7 +102074,7 @@ if(r==null){o.a.toString
 r=n}p=B.c.bo(a).toLowerCase()
 if(!o.ax&&B.c.p(p,"enigma")){o.q(new A.azd(o))
 A.NP("enigma_completed")
-o.c.a2(t.q).f.cm(A.dX(n,n,n,B.h,n,B.q,n,A.bV(A.b([A.pf("assets/trophies/enigma.png",n,24,24),B.df,B.DN],t.p),B.o,B.r,B.u),n,B.a0,n,n,n,n,n,n,n,n,n))}if(r!=null&&p===r)$.a0.p3$.push(new A.aze(m))},
+o.c.a2(t.q).f.cm(A.dX(n,n,n,B.h,n,B.q,n,A.bV(A.b([A.pf("assets/trophies/enigma.png",n,24,24),B.df,B.DO],t.p),B.o,B.r,B.u),n,B.a0,n,n,n,n,n,n,n,n,n))}if(r!=null&&p===r)$.a0.p3$.push(new A.aze(m))},
 L(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d="ABCDEFGHIJKLMNOPQRSTUVWXYZ",c=A.nr(a,e,t.X)
 c=c==null?e:c.c.b
 t.nA.a(c)
@@ -102179,7 +102179,7 @@ $1(a){var s,r=null,q=this.a,p=q.ay?4:3,o=t.p,n=A.b([B.D1,B.D2],o)
 if(q.ay)n.push(B.D0)
 n.push(B.D3)
 n=A.aWl(B.i,!0,B.i,n,B.H)
-s=A.b([A.fB(B.DR,r,B.y,B.aM,r,!1,B.a1),A.fB(B.DK,r,B.y,B.aM,r,!1,B.a1)],o)
+s=A.b([A.fB(B.DR,r,B.y,B.aM,r,!1,B.a1),A.fB(B.DL,r,B.y,B.aM,r,!1,B.a1)],o)
 if(q.ay)s.push(A.fB(new A.en(new A.azw(q),r),r,B.y,B.aM,r,!1,B.a1))
 s.push(A.fB(new A.en(new A.azx(q),r),r,B.y,B.aM,r,!1,B.a1))
 return A.dM(r,B.h,A.c5(A.aV2(A.bS(A.b([n,A.c5(A.aWm(s),300,r)],o),B.o,B.r,B.aH),p),r,17976931348623157e292),B.O,r,r)},
@@ -104264,12 +104264,12 @@ m=A.dl(A.a4(a).dx,2)
 l=A.b0(8)
 k=t.p
 p=A.fv(h,A.iM(!1,o,!0,A.bA(h,A.bV(A.b([B.qX,B.df,new A.p6(1,B.io,A.aa(i.f?i.w:"Please log in",h,B.aZ,h,h,h,B.cu,h,h),h)],k),B.o,B.r,B.aH),B.p,h,new A.ak(0,n.a.a*0.4,48,1/0),new A.bq(B.h,h,m,l,h,h,B.D),h,h,h,B.ia,h,h,h),h,!0,h,h,h,h,h,h,h,h,new A.aMt(i,a),h,h,h,h,h,h,h),h,h,20,h,p.r.b+10,h)
-l=A.dy(h,B.DC,B.y,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.aMu(a),h,h,h,h,h,h,!1,B.ab)
+l=A.dy(h,B.DD,B.y,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.aMu(a),h,h,h,h,h,h,!1,B.ab)
 m=A.bX(a,h,q).w
 n=i.gjo()
 o=g.length
 j=t.Is
-m=A.FQ(0,new A.aP(B.qb,A.c5(A.bS(A.b([B.hj,l,B.aU,A.cv(A.R7(A.c5(A.fB(A.aVC(A.bS(A.b([B.aU,A.d3(B.DI,h,new A.aMv(i,a),n.ed(new A.aU(new A.aD(g[0%o],2,B.v,-1),j))),B.aU,A.d3(B.DU,h,new A.aMG(i,a),i.gjo().ed(new A.aU(new A.aD(g[1%o],2,B.v,-1),j))),B.aU,A.d3(B.DA,h,new A.aMI(i,a),i.gjo().ed(new A.aU(new A.aD(g[2%o],2,B.v,-1),j))),B.aU,A.d3(B.DO,h,new A.aMJ(i,a),i.gjo().ed(new A.aU(new A.aD(g[3%o],2,B.v,-1),j))),B.aU,A.d3(B.DG,h,new A.aMK(i,a),i.gjo().ed(new A.aU(new A.aD(g[4%o],2,B.v,-1),j))),B.aU,A.d3(B.DH,h,new A.aML(i,a),i.gjo().ed(new A.aU(new A.aD(g[5%o],2,B.v,-1),j)))],k),B.c2,B.r,B.u)),h,B.y,h,h,!1,B.a1),m.a.b*0.35,h),h,0.5),h,h),B.hj],k),B.c2,B.r,B.u),1/0,h),h))
+m=A.FQ(0,new A.aP(B.qb,A.c5(A.bS(A.b([B.hj,l,B.aU,A.cv(A.R7(A.c5(A.fB(A.aVC(A.bS(A.b([B.aU,A.d3(B.DJ,h,new A.aMv(i,a),n.ed(new A.aU(new A.aD(g[0%o],2,B.v,-1),j))),B.aU,A.d3(B.DU,h,new A.aMG(i,a),i.gjo().ed(new A.aU(new A.aD(g[1%o],2,B.v,-1),j))),B.aU,A.d3(B.DB,h,new A.aMI(i,a),i.gjo().ed(new A.aU(new A.aD(g[2%o],2,B.v,-1),j))),B.aU,A.d3(B.Dz,h,new A.aMJ(i,a),i.gjo().ed(new A.aU(new A.aD(g[3%o],2,B.v,-1),j))),B.aU,A.d3(B.DH,h,new A.aMK(i,a),i.gjo().ed(new A.aU(new A.aD(g[4%o],2,B.v,-1),j))),B.aU,A.d3(B.DI,h,new A.aML(i,a),i.gjo().ed(new A.aU(new A.aD(g[5%o],2,B.v,-1),j)))],k),B.c2,B.r,B.u)),h,B.y,h,h,!1,B.a1),m.a.b*0.35,h),h,0.5),h,h),B.hj],k),B.c2,B.r,B.u),1/0,h),h))
 j=A.b0(8)
 o=A.dl(A.a4(a).dx,2)
 n=A.b0(8)
@@ -104321,7 +104321,7 @@ s=m!==!0?12:13
 break
 case 12:s=14
 return A.f(A.oC("loggedin_completed"),$async$$1)
-case 14:k.c.a2(t.q).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.DJ,null,B.a0,null,null,null,null,null,null,null,null,null))
+case 14:k.c.a2(t.q).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.DK,null,B.a0,null,null,null,null,null,null,null,null,null))
 case 13:s=15
 return A.f(k.wE(),$async$$1)
 case 15:m=$.U
@@ -104386,7 +104386,7 @@ return A.q($async$$0,r)},
 $S:2}
 A.aMk.prototype={
 $1(a){var s=null,r=A.b0(8),q=A.aa("Account",s,s,s,s,s,A.bn(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),p=A.aa("You are logged in as "+this.a.w+". Do you want to log out?",s,s,s,s,s,A.bn(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)
-return A.dM(A.b([A.jG(B.DF,new A.aLi(a),A.nv(s,s,B.h,s,s,s,s,s,s,B.i,s,s,s,s,s,B.w,s,s,s,s)),A.jG(B.DM,new A.aLj(a),A.nv(s,s,B.h,s,s,s,s,s,s,B.i,s,s,s,s,s,B.w,s,s,s,s))],t.p),B.h,p,s,new A.bB(r,B.w),q)},
+return A.dM(A.b([A.jG(B.DG,new A.aLi(a),A.nv(s,s,B.h,s,s,s,s,s,s,B.i,s,s,s,s,s,B.w,s,s,s,s)),A.jG(B.DN,new A.aLj(a),A.nv(s,s,B.h,s,s,s,s,s,s,B.i,s,s,s,s,s,B.w,s,s,s,s))],t.p),B.h,p,s,new A.bB(r,B.w),q)},
 $S:13}
 A.aLi.prototype={
 $0(){return A.ac(this.a,!1).dU(!1)},
@@ -104602,7 +104602,7 @@ break
 case 6:s=9
 return A.f(A.oC("mom_completed"),$async$$0)
 case 9:A.ac(q.b,!1).bv()
-o.a2(p).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.DB,null,B.a0,null,null,null,null,null,null,null,null,null))
+o.a2(p).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.DC,null,B.a0,null,null,null,null,null,null,null,null,null))
 s=7
 break
 case 8:o.a2(p).f.cm(A.dX(null,null,null,B.h,null,B.q,null,B.Dv,null,B.a0,null,null,null,null,null,null,null,null,null))
@@ -104659,7 +104659,7 @@ A.e1(null,!0,new A.aLQ(s),s,t.z)},
 $S:0}
 A.aLQ.prototype={
 $1(a){var s=null,r=A.b0(8)
-return A.dM(A.b([A.di(B.dY,new A.aLa(a),s),A.di(B.DS,new A.aLb(a,this.a),s)],t.p),B.h,B.DL,s,new A.bB(r,B.w),s)},
+return A.dM(A.b([A.di(B.dY,new A.aLa(a),s),A.di(B.DS,new A.aLb(a,this.a),s)],t.p),B.h,B.DM,s,new A.bB(r,B.w),s)},
 $S:13}
 A.aLa.prototype={
 $0(){return A.ac(this.a,!1).bv()},
@@ -104923,11 +104923,11 @@ p=A.cF(A.jG(A.aa(c,q,q,q,q,q,B.Do,B.a6,q),b,p),1)
 s=J.eG(5,t.l7)
 for(r=0;r<5;++r)s[r]=new A.aP(B.q9,A.f7(r<a?B.lG:B.qT,B.i,q,16),q)
 return new A.aP(B.c3,A.bS(A.b([p,B.hh,A.bV(s,B.o,B.ba,B.u)],t.p),B.o,B.r,B.u),q)},
-apG(a){var s,r,q=this,p=A.b([q.kC(3,new A.aHK(q,a),"Sticks Game"),q.kC(2,new A.aHL(q,a),"The Stickman Riddle"),q.kC(2,new A.aHM(q,a),"Grid Riddle"),q.kC(1,new A.aHN(q,a),"Letter Riddle"),q.kC(4,new A.aHO(q,a),"Tower Of Hanoi"),q.kC(1,new A.aHP(q,a),"15 Puzzle"),q.kC(2,new A.aHQ(q,a),"Lights Out"),q.kC(3,new A.aHR(q,a),"Knight's Tour"),q.kC(3,new A.aHS(q,a),"1-100"),q.kC(2,new A.aHT(q,a),"Cipher Merge")],t.p),o=B.f.S(p.length,3)
+apG(a){var s,r,q=this,p=A.b([q.kC(3,new A.aHK(q,a),"Sticks Game"),q.kC(2,new A.aHL(q,a),"The Stickman Riddle"),q.kC(2,new A.aHM(q,a),"Grid Riddle"),q.kC(1,new A.aHN(q,a),"Letter Riddle"),q.kC(4,new A.aHO(q,a),"Tower Of Hanoi"),q.kC(1,new A.aHP(q,a),"15 Puzzle"),q.kC(2,new A.aHQ(q,a),"Lights Out"),q.kC(2,new A.aHR(q,a),"Knight's Tour"),q.kC(3,new A.aHS(q,a),"1-100"),q.kC(2,new A.aHT(q,a),"Cipher Merge")],t.p),o=B.f.S(p.length,3)
 if(o!==0){s=3-o
 for(r=0;r<s;++r)p.push(new A.pe(!0,new A.y4(0,q.kC(0,new A.aHV(),""),null),null))}return p},
 L(a){var s=null,r=this.d
-return A.dB(A.dh(A.dN(s,!0,B.h,s,s,0,s,s,A.cs(s,s,A.f7(B.bH,B.i,s,s),s,s,new A.aI5(a),s,s,s),B.Dz,s),B.h,new A.aP(B.aM,A.bS(A.b([A.cF(A.xr(1,this.apG(a),3,6,6,s,s,!1),1),B.c8,A.bV(B.rr,B.o,B.ba,B.u)],t.p),B.o,B.r,B.u),s)),B.E,B.t,r)}}
+return A.dB(A.dh(A.dN(s,!0,B.h,s,s,0,s,s,A.cs(s,s,A.f7(B.bH,B.i,s,s),s,s,new A.aI5(a),s,s,s),B.DA,s),B.h,new A.aP(B.aM,A.bS(A.b([A.cF(A.xr(1,this.apG(a),3,6,6,s,s,!1),1),B.c8,A.bV(B.rr,B.o,B.ba,B.u)],t.p),B.o,B.r,B.u),s)),B.E,B.t,r)}}
 A.aHK.prototype={
 $0(){var s=0,r=A.r(t.H),q=this,p,o
 var $async$$0=A.m(function(a,b){if(a===1)return A.o(b,r)
@@ -106691,7 +106691,7 @@ A.e1(null,!0,new A.aQ_(s),s,t.z)},
 $S:0}
 A.aQ_.prototype={
 $1(a){var s=A.b0(8)
-return A.dM(A.b([A.di(B.DD,new A.aPX(this.a),null)],t.p),B.h,B.aaX,null,new A.bB(s,B.bp),B.DT)},
+return A.dM(A.b([A.di(B.DE,new A.aPX(this.a),null)],t.p),B.h,B.aaX,null,new A.bB(s,B.bp),B.DT)},
 $S:13}
 A.aPX.prototype={
 $0(){return A.ac(this.a,!1).bv()},
@@ -117112,31 +117112,32 @@ B.Dx=new A.aj("Please log in to view leaderboards",null,B.m,null,null,null,null,
 B.Dy=new A.aj("Clear",null,null,null,null,null,null,null,null,null,null)
 B.aaX=new A.aj("Work your way up to 7 discs, finish that and get a trophy. There's another trophy waiting at the end of perfection as well.",null,B.m,null,null,null,null,null,null,null,null)
 B.aaY=new A.aj("Check it",null,null,null,null,null,null,null,null,null,null)
+B.Dz=new A.aj("PUZZLES & GAMES",null,null,null,null,null,null,null,null,null,null)
 B.aaZ=new A.aj("Grid Riddle",null,B.m,null,null,null,null,null,null,null,null)
 B.ab_=new A.aj("Knight's Tour",null,null,null,null,null,null,null,null,null,null)
 B.dY=new A.aj("Close",null,B.m,null,null,null,null,null,null,null,null)
 B.ab0=new A.aj("Impressive, you found the secret answer to this riddle.\nYou've been awarded the GENIUS trophy.",null,B.m,null,null,null,null,null,null,null,null)
 B.ab1=new A.aj("MathCalc",null,B.m,null,null,null,null,null,null,null,null)
-B.Dz=new A.aj("Puzzles",null,B.m,null,null,null,null,null,null,null,null)
+B.DA=new A.aj("Puzzles",null,B.m,null,null,null,null,null,null,null,null)
 B.ab2=new A.aj("Christmas Calculator",null,B.m,null,null,null,null,null,null,null,null)
-B.DA=new A.aj("THE EASY ONE",null,null,null,null,null,null,null,null,null,null)
+B.DB=new A.aj("THE EASY ONE",null,null,null,null,null,null,null,null,null,null)
 B.ab3=new A.aj("Secret Mode",null,B.m,null,null,null,null,null,null,null,null)
 B.ab4=new A.aj("Forgot Password?",null,B.m,null,null,null,null,null,null,null,null)
 B.ab5=new A.aj("You need to get the numbers in order from 1-16, 1 being in the top left, and 16 being in the bottom right as the empty space. Good luck!",null,B.m,null,null,null,null,null,null,null,null)
 B.ab7=new A.aj("Solved! \ud83c\udf89",null,B.m,null,null,null,null,null,null,null,null)
 B.ab9=new A.aj("can you unlock all the trophies and find all the keys to finally complete the map?",null,B.m,null,null,null,null,null,null,null,null)
 B.aba=new A.aj("No moves left",null,B.m,null,null,null,null,null,null,null,null)
-B.DB=new A.aj("The Mom trophy unlocked!",null,B.m,null,null,null,null,null,null,null,null)
+B.DC=new A.aj("The Mom trophy unlocked!",null,B.m,null,null,null,null,null,null,null,null)
 B.abb=new A.aj("Map Info",null,B.m,null,null,null,null,null,null,null,null)
 B.abd=new A.aj("Correct!",null,B.m,null,null,null,null,null,null,null,null)
 B.aap=new A.y(!0,B.i,null,null,null,null,24,B.ah,null,null,null,null,null,null,null,null,null,B.k,null,null,null,null,null,null,null,null)
-B.DC=new A.aj("Siffero",null,B.aap,null,B.a6,null,null,null,null,null,null)
+B.DD=new A.aj("Siffero",null,B.aap,null,B.a6,null,null,null,null,null,null)
 B.abf=new A.aj("Impressive!",null,B.m,null,null,null,null,null,null,null,null)
 B.abh=new A.aj("Reset Password",null,null,null,null,null,null,null,null,null,null)
-B.DD=new A.aj("OK",null,null,null,null,null,null,null,null,null,null)
-B.DE=new A.aj("New Game",null,B.m,null,null,null,null,null,null,null,null)
-B.DF=new A.aj("Stay Logged In",null,B.m,null,null,null,null,null,null,null,null)
-B.DG=new A.aj("ENIGMA",null,null,null,null,null,null,null,null,null,null)
+B.DE=new A.aj("OK",null,null,null,null,null,null,null,null,null,null)
+B.DF=new A.aj("New Game",null,B.m,null,null,null,null,null,null,null,null)
+B.DG=new A.aj("Stay Logged In",null,B.m,null,null,null,null,null,null,null,null)
+B.DH=new A.aj("ENIGMA",null,null,null,null,null,null,null,null,null,null)
 B.abl=new A.aj("Congratulations! You solved the grid riddle.\nThe Fibonacci trophy has been unlocked.",null,B.m,null,null,null,null,null,null,null,null)
 B.abm=new A.aj("Final Destination",null,B.m,null,null,null,null,null,null,null,null)
 B.abo=new A.aj("Start discs: ",null,B.cu,null,null,null,null,null,null,null,null)
@@ -117150,24 +117151,23 @@ B.aby=new A.aj("You Won! \ud83c\udf89",null,B.m,null,null,null,null,null,null,nu
 B.abA=new A.aj("Lights Out",null,B.m,null,null,null,null,null,null,null,null)
 B.abB=new A.aj("Cancel",null,B.m,null,null,null,null,null,null,null,null)
 B.abC=new A.aj("New here? Register instead",null,B.m,null,null,null,null,null,null,null,null)
-B.DH=new A.aj("THE MOM",null,null,null,null,null,null,null,null,null,null)
-B.DI=new A.aj("THE MAP",null,null,null,null,null,null,null,null,null,null)
+B.DI=new A.aj("THE MOM",null,null,null,null,null,null,null,null,null,null)
+B.DJ=new A.aj("THE MAP",null,null,null,null,null,null,null,null,null,null)
 B.abD=new A.aj("The Beginning trophy unlocked!",null,B.m,null,null,null,null,null,null,null,null)
 B.abE=new A.aj("Poem Riddle",null,null,null,null,null,null,null,null,null,null)
 B.abF=new A.aj("123",null,B.nf,null,null,null,null,null,null,null,null)
-B.DJ=new A.aj("Logged-in trophy unlocked!",null,B.m,null,null,null,null,null,null,null,null)
-B.DK=new A.aj("First are the five rotors, at the starting position A-B-C-D-E.\nThey have 26 letters each, which gives over 11881376 starting positions.\nAt the buttom, the plugbard adds almost 26*25*24... (26!) combinations by pairing letters, making the number of encryptions astronomical.\nOn your journey you will find encrypted messages, that needs to be decrypted using The Enigma.\n\nGood Luck - Ciphero",null,B.m,null,null,null,null,null,null,null,null)
+B.DK=new A.aj("Logged-in trophy unlocked!",null,B.m,null,null,null,null,null,null,null,null)
+B.DL=new A.aj("First are the five rotors, at the starting position A-B-C-D-E.\nThey have 26 letters each, which gives over 11881376 starting positions.\nAt the buttom, the plugbard adds almost 26*25*24... (26!) combinations by pairing letters, making the number of encryptions astronomical.\nOn your journey you will find encrypted messages, that needs to be decrypted using The Enigma.\n\nGood Luck - Ciphero",null,B.m,null,null,null,null,null,null,null,null)
 B.abI=new A.aj("Game Over",null,B.m,null,null,null,null,null,null,null,null)
 B.abJ=new A.aj("Hint",null,B.m,null,null,null,null,null,null,null,null)
-B.DL=new A.aj("Welcome to my App.\nHere, knowledge means nothing \u2014 only logic, intelligence, and relentless persistence will guide you.\nCan you uncover all the trophies... and unlock the secret that lies hidden within?\nEvery puzzle is a key. Every step brings you closer \u2014 or deeper into the unknown.\n\nGood luck.\n- Siffero",null,B.m,null,null,null,null,null,null,null,null)
+B.DM=new A.aj("Welcome to my App.\nHere, knowledge means nothing \u2014 only logic, intelligence, and relentless persistence will guide you.\nCan you uncover all the trophies... and unlock the secret that lies hidden within?\nEvery puzzle is a key. Every step brings you closer \u2014 or deeper into the unknown.\n\nGood luck.\n- Siffero",null,B.m,null,null,null,null,null,null,null,null)
 B.abK=new A.aj("Tower of Hanoi",null,B.m,null,null,null,null,null,null,null,null)
 B.abM=new A.aj("1 \u2192 100",null,B.m,null,null,null,null,null,null,null,null)
 B.abN=new A.aj("You found the end of the line, however you must gather all 5 keys to enter the final destination",null,B.m,null,null,null,null,null,null,null,null)
-B.DM=new A.aj("Log Out",null,B.m,null,null,null,null,null,null,null,null)
+B.DN=new A.aj("Log Out",null,B.m,null,null,null,null,null,null,null,null)
 B.abO=new A.aj("Send Reset Link",null,null,null,null,null,null,null,null,null,null)
 B.abP=new A.aj("Time goes by and it goes to show.\nThat to follow the time you got to follow the flow.\nThe arms show one thing and the legs another.\nSolving this riddle I hope you bother.",null,B.m,null,null,null,null,null,null,null,null)
-B.DN=new A.aj("Trophy unlocked: enigma.png",null,B.m,null,null,null,null,null,null,null,null)
-B.DO=new A.aj("RIDDLES",null,null,null,null,null,null,null,null,null,null)
+B.DO=new A.aj("Trophy unlocked: enigma.png",null,B.m,null,null,null,null,null,null,null,null)
 B.abR=new A.aj("This one is easy, but it takes time.\nAdd in the letters, it don't have to rhyme.\nSubmit your findings and then you'll see.\nThe colors green and red, as guides will be.\n",null,B.m,null,null,null,null,null,null,null,null)
 B.abT=new A.aj("In this grid some words to find.\nConnect them to find the right line.\nThe line you find, holds a deeper meaning,\nCounting letters is the mood to be in.",null,B.m,null,null,null,null,null,null,null,null)
 B.abU=new A.aj("Already have an account? Login",null,B.m,null,null,null,null,null,null,null,null)
