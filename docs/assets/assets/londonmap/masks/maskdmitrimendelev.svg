@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="dmitrimendelev" xmlns="http://www.w3.org/2000/svg" width="6244" height="6244" viewBox="0 0 6244 6244">
-  <circle cx="3867.5" cy="3083.5" r="35.652" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="9.067"/>
-  <circle cx="3867.5" cy="3083.5" r="20.414" fill="#fff" stroke="#f2f2f2" stroke-miterlimit="10"/>
-  <line x1="3466.178" y1="3483.5" x2="3868.181" y2="3083.146" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="10"/>
-  <line x1="3741.289" y1="3753.673" x2="3490.688" y2="3509.213" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="40"/>
+<svg id="savespave" xmlns="http://www.w3.org/2000/svg" width="6244" height="6244" viewBox="0 0 6244 6244">
+  <g id="dmitrimendelev">
+    <circle cx="3867.5" cy="3083.5" r="35.652" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="9.067"/>
+    <circle cx="3867.5" cy="3083.5" r="20.414" fill="#fff" stroke="#f2f2f2" stroke-miterlimit="10"/>
+    <line x1="3466.178" y1="3483.5" x2="3868.181" y2="3083.146" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="10"/>
+    <line x1="3798.282" y1="3810.666" x2="3490.688" y2="3509.213" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="40"/>
+  </g>
 </svg>
